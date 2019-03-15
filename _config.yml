@@ -16,7 +16,7 @@
 title: Курс по документированию API
 email: starkovden@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Материалы, размещенные на этом сайте являются вольным переводом курса [**Documenting APIs: A guide for technical writers**](https://idratherbewriting.com/learnapidoc/)  составленного Томом Джонсоном, техническим писателем Amazon.
+  Материалы, размещенные на этом сайте являются вольным переводом курса Documenting APIs: A guide for technical writers составленного Томом Джонсоном, техническим писателем Amazon.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: starkovden
