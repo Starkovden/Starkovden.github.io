@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html>
 
-  {%- include head.html -%}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="blog-masthead">
+      <div class="container">
+        {% include top-menu.html %}
       </div>
-    </main>
+    </div>
 
-    {%- include footer.html -%}
+    <div class="container">
 
-  </body>
+      {% include header.html %}
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+            {{ content }}
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            {% include sidebar.html %}
+
+         </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      {% include footer.html %}
+    </div>
+
+</body>
 
 </html>

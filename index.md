@@ -1,6 +1,14 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+
+{% for post in site.categories.jekyll %}
+
+<div class="blog-post">
+            <h2 class="blog-post-title"><a href="{{ post.url|prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="blog-post-meta">{{ post.date }}</p>
+            {{ post.content  }}
+
+ </div>
+
+{% endfor %}
