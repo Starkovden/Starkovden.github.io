@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Курс по документированию API"
+permalink: /index.html
 date:   2019-06-26 14:34:28 +0300
 category: introduction
 ---
