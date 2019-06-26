@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: "post"
 title:  "Курс по документированию API"
 date:   2019-06-26 14:34:28 +0300
-category: introduction
+
 ---
 
 # Курс по документированию REST API
