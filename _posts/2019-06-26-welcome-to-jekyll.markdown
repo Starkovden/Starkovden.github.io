@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Курс по документированию API"
 date:   2019-06-26 14:34:28 +0300
 categories: jekyll update
 ---
