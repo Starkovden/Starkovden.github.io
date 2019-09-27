@@ -1,0 +1,31 @@
+# Project information
+site_name: Learnapidoc-ru
+site_description: Курс по документированию API. Вольный перевод курса https://idratherbewriting.com/learnapidoc/, составленного Томом Джонсоном, техническим писателем Amazon.
+site_author: StarkovDen
+site_url: https://starkovden.github.io/
+repo_name: docops-hq/learnapidoc-ru
+repo_url: https://github.com/docops-hq/learnapidoc-ru
+nav:
+    - О курсе: index.md
+    - Введение в REST API: introduction-rest-apis
+        - Обзор курса: coure-overview.md
+        - Видео презентации: video-presentations.md
+
+
+# Configuration
+theme: readthedocs
+
+    # Default values
+    language: ru
+    feature:
+        tabs: true
+    palette:
+        primary: indigo
+        accent: indigo
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+    # 404 page
+    static_templates:
+        - 404.html
