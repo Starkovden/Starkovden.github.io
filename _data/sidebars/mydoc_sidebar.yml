@@ -32,8 +32,8 @@ entries:
       url: /course-overview.html
       output: web, pdf
 
-    - title: Introduction
-      url: /mydoc_introduction.html
+    - title: Видео презентации
+      url: /video-presentations.html
       output: web, pdf
 
     - title: Supported features
