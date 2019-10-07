@@ -147,4 +147,4 @@ JavaScript - один из самых полезных и простых язы�
 
 [🔙](README.md)
 
-[Go next ➡](video-presentations.md)
+[Go next ➡](video-presentations.html)
