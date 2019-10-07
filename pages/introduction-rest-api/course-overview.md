@@ -23,7 +23,7 @@ folder: introduction-rest-api
 
 Вкратце, REST API (которые является разновидностью веб-API) используют запросы и ответы, что мало чем отличается от посещения веб-страницы. Вы делаете запрос к ресурсу, хранящемуся на сервере, и сервер отвечает запрошенной информацией. Протокол, используемый для передачи данных, -  HTTP. «REST» (Representational State Transfer) означает репрезентативную передачу состояния.
 
-![rest api](pics/2.jpg)
+{% include image.html file="introduction-rest-api/request.jpg" alt="request" caption="REST API используют запросы и ответы по протоколу HTTP" %}
 
 *REST API используют запросы и ответы по протоколу HTTP*
 
