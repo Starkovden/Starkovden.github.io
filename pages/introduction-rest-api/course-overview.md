@@ -25,8 +25,6 @@ folder: introduction-rest-api
 
 {% include image.html file="introduction-rest-api/request.jpg" alt="request" caption="REST API используют запросы и ответы по протоколу HTTP" %}
 
-*REST API используют запросы и ответы по протоколу HTTP*
-
 Более подробно о принципах REST в файле [Что такое REST API?](what-is-rest-api.md). В документации API REST описываются различные конечные точки, их методы, параметры и другие сведения, а также документируются образцы ответов от конечных точек.
 
 <a name="from-practice-to-doc"></a>
