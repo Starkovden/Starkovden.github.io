@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: learnapidoc-ru
+  product: Learnapidoc-ru
   version: 1.0
   folders:
 
@@ -23,10 +23,14 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Обзор курса
+    - title: Введение
       url: /index.html
       output: web, pdf
       type: homepage
+
+    - title: Обзор курса
+      url: /course-overview.html
+      output: web, pdf
 
     - title: Introduction
       url: /mydoc_introduction.html
