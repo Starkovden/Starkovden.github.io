@@ -1,5 +1,5 @@
 ---
-title: Документация API: руководство для технических писателей
+title: Документация API "Руководство для технических писателей"
 keywords: documentation theme, jekyll, technical writers
 last_updated: october 7, 2019
 sidebar: mydoc_sidebar
