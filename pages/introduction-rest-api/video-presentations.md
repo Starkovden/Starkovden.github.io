@@ -58,13 +58,13 @@ folder: introduction-rest-api
 
 <a name="part1"></a>
 
-[Часть первая](https://youtu.be/Ivum3YbOWQ4)
+{% include image.html file="introduction-rest-api/36.jpg" alt="Часть 1" caption="Часть 1" %}
 
 <a name="part2"></a>
-[Часть вторая](https://youtu.be/zV6m-6_j56w)
+{% include image.html file="introduction-rest-api/37.jpg" alt="Часть 2" caption="Часть 2" %}
 
 <a name="part3"></a>
-[Часть третья](https://youtu.be/LSLg6Oy1OzM)
+{% include image.html file="introduction-rest-api/38.jpg" alt="Часть 3" caption="Часть 3" %}
 
 <a name="audio2"></a>
 ### Аудио записи семинара
