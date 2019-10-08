@@ -208,59 +208,59 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=
 
 На этом занятии будем использовать JavaScript для отображения ответа API на веб-странице. Для создания запроса AJAX будем использовать автоматически сгенерированный код jQuery из Postman.
 
-1. В текстовом редакторе (например, Sublime Text) создадим новый файл HTML (который содержит основные теги HTML) и вставим в него следующий скрипт:
+- В текстовом редакторе (например, Sublime Text) создадим новый файл HTML (который содержит основные теги HTML) и вставим в него следующий скрипт:
 
-	```html
-	<html>
-	<meta charset="UTF-8">
-	  <head>
-	      <title>Sample page</title>
-	      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	  </head>
-	<body>
-	  <h2>Sample page</h2>
+```html
+<html>
+<meta charset="UTF-8">
+  <head>
+      <title>Sample page</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+<body>
+  <h2>Sample page</h2>
 
-	</body>
-	</html>
-	```
+</body>
+</html>
+```
 
-2. Сохраняем файл на ПК, с именем **weather.html**.
-3. Открываем Postman и переходим к конечной точке, которую вы настроили в предыдущем действии (см. «Создаем запросы в Postman»).
-4. Кликаем на кнопку `Code` и выбираем **JavaScript > jQuery AJAX**.
+- Сохраняем файл на ПК, с именем **weather.html**.
+- Открываем Postman и переходим к конечной точке, которую вы настроили в предыдущем действии (см. «Создаем запросы в Postman»).
+- Кликаем на кнопку `Code` и выбираем **JavaScript > jQuery AJAX**.
 
 {% include image.html file="introduction-rest-api/7.png" alt="jQuery_AJAX" %}
 
 Код AJAX должен выглядеть так:
 
-	```
-	var settings = {
-	  "async": true,
-	  "crossDomain": true,
-	  "url": "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=fd4698c940c6d1da602a70ac34f0b147&units=imperial",
-	  "method": "GET",
-	  "headers": {
-	    "cache-control": "no-cache",
-	    "postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
-	  }
+```javascript
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=fd4698c940c6d1da602a70ac34f0b147&units=imperial",
+  "method": "GET",
+  "headers": {
+    "cache-control": "no-cache",
+    "postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+```
+
+- Нажимаем кнопку `Copy to Clipboard` для копирования примера кода.
+- В том же шаблоне, который начали создавать на шаге 1, добавляем пару тегов `<script></script>` под ссылкой jQuery, а затем вставляем скопированный код Postman между тегов `script`.
+- В коде jQuery убираем объект `headers`, вставленный Postman
+
+```javascript
+"headers": {
+	"cache-control": "no-cache",
+ 	"postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
 	}
+```
 
-	$.ajax(settings).done(function (response) {
-	  console.log(response);
-	});
-	```
-
-5. Нажимаем кнопку `Copy to Clipboard` для копирования примера кода.
-6. В том же шаблоне, который начали создавать на шаге 1, добавляем пару тегов `<script></script>` под ссылкой jQuery, а затем вставляем скопированный код Postman между тегов `script`.
-7. В коде jQuery убираем объект `headers`, вставленный Postman
-
-	```javascript
-	"headers": {
-		"cache-control": "no-cache",
-	 	"postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
-		}
-	```
-
-8. Убираем запятую после `"method": "GET"`.
+- Убираем запятую после `"method": "GET"`.
 
 Финальный код должен выглядеть так:
 
@@ -293,12 +293,12 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=
 
 > Совет: Файл можно посмотреть [по ссылке](https://idratherbewriting.com/learnapidoc/assets/files/weather-plain.html). (Добавлено несколько инструкций по открытию консоли разработчика, потому что в противном случае отображение страницы на этом этапе в учебнике было бы совершенно пустым.)
 
-9. Запускаем Chrome и открываем JavaScript Console перейдя **View > Developer > JavaScript Console.**.
-10. В Chrome переходим в «Файл»> «Открыть файл» и выберите файл weather.html. (Если вы не видите меню «Файл» в Chrome, нажмите Cmd + O или Ctrl + O или просто перетащите файл weather.html в окно браузера.)
+- Запускаем Chrome и открываем JavaScript Console перейдя **View > Developer > JavaScript Console.**.
+- В Chrome переходим в «Файл»> «Открыть файл» и выберите файл weather.html. (Если вы не видите меню «Файл» в Chrome, нажмите Cmd + O или Ctrl + O или просто перетащите файл weather.html в окно браузера.)
 
 Тело страницы будет пустым, но ответ о погоде должен быть записан в консоли JavaScript (из-за кода console.log (response) в запросе). Если развернуть объект, возвращенный в консоль, он будет выглядеть следующим образом:
 
-![Console](pics/8.png)
+{% include image.html file="introduction-rest-api/8.png" alt="Console" %}
 
 Теперь эта информация доступна для интеграции на вашей странице.
 
@@ -312,39 +312,38 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=
 
 Для поиска нужного проекта:
 
-1. Открываем [расширенный поиск GitHub](https://github.com/search/advanced)
-2. Скроллим экран и ищем раздел **Issues Options**. В поле **With the labels** вписываем `help wanted`. Это стандартный тег, который команды используют для привлечения добровольцев в свой проект (но некоторые команды, которым нужна помощь, могут его и не использовать). Скроллим вверх и замечаем, что надпись: «Требуется помощь» автоматически заполняется в поле **Advanced Search**.
-3. В поле **Advanced Search** добавляем ключевые слова `documentation` и `api` перед тегом `help wanted`  
+- Открываем [расширенный поиск GitHub](https://github.com/search/advanced)
+- Скроллим экран и ищем раздел **Issues Options**. В поле **With the labels** вписываем `help wanted`. Это стандартный тег, который команды используют для привлечения добровольцев в свой проект (но некоторые команды, которым нужна помощь, могут его и не использовать). Скроллим вверх и замечаем, что надпись: «Требуется помощь» автоматически заполняется в поле **Advanced Search**.
+- В поле **Advanced Search** добавляем ключевые слова `documentation` и `api` перед тегом `help wanted`  
 
-![Advanced_Search](pics/9.png)
+{% include image.html file="introduction-rest-api/9.png" alt="Advanced_Search" %}
 
-4. Нажимаем кнопку `Search` и видим [результат](https://github.com/search?utf8=%E2%9C%93&q=documentation+api+label%3A%22help+wanted%22&type=Issues&ref=advsearch&l=&l=)
+- Нажимаем кнопку `Search` и видим [результат](https://github.com/search?utf8=%E2%9C%93&q=documentation+api+label%3A%22help+wanted%22&type=Issues&ref=advsearch&l=&l=)
 
 В полученном списке можно поискать проект REST API (а не API нативной библиотеки, такой как Java API). Есть ли проекты, которые выглядят интересными или перспективными? Если так, отлично. Если нет, добавляем ключевые слова и продолжаем искать.
 
-5. Если поиск на GitHub не дал подходящих проектов, можно поискать на следующих ресурсах:
- - [Trending GitHub projects](https://github.com/trending)
- - [Crowdforge](https://crowdforge.io/)
- - [Up for Grabs](https://up-for-grabs.net/#/)
- - [Bus Factor](https://libraries.io/experiments/bus-factor)
- - [Code Triage](https://www.codetriage.com/)
- - [Changelog](https://changelog.com/)
- - [24-hour Pull Requests](https://24pullrequests.com/)
- - [Programmableweb.com API directory](https://www.programmableweb.com/category/all/apis)
+- Если поиск на GitHub не дал подходящих проектов, можно поискать на следующих ресурсах:
+  - [Trending GitHub projects](https://github.com/trending)
+  - [Crowdforge](https://crowdforge.io/)
+  - [Up for Grabs](https://up-for-grabs.net/#/)
+  - [Bus Factor](https://libraries.io/experiments/bus-factor)
+  - [Code Triage](https://www.codetriage.com/)
+  - [Changelog](https://changelog.com/)
+  - [24-hour Pull Requests](https://24pullrequests.com/)
+  - [Programmableweb.com API directory](https://www.programmableweb.com/category/all/apis)
 
 > Примечание. Можно потратить много времени на поиск, оценку и участие в проекте с открытым исходным кодом. Для этого упражнения хорошо бы сосредоточиться на проекте, который выглядит только слегка интересным. Не обязательно сразу коммититься, это можно сделать в любое время.
 
-6. После выбора проекта пометим следующее:
-
- - Задействован ли REST API в проекте?
- - Как в проекте помечены проблемы, связанные с документацией? Например, используется ли в нем ярлык «документация»?
- - Определяем текущее состояние документации проекта: является ли она надежной, скудной, обширной, есть она вообще?
- - Насколько активен проект? (Какова частота коммитов?)
- - Сколько участников в проекте?
+- После выбора проекта пометим следующее:
+  - Задействован ли REST API в проекте?
+  - Как в проекте помечены проблемы, связанные с документацией? Например, используется ли в нем ярлык «документация»?
+  - Определяем текущее состояние документации проекта: является ли она надежной, скудной, обширной, есть она вообще?
+  - Насколько активен проект? (Какова частота коммитов?)
+  - Сколько участников в проекте?
 
 > Примечание: Вам еще пока не нужно связываться или взаимодействовать с командой. Вы просто собираете информацию и анализируете потребности в документации здесь.
 
-Подробная информация для этого практического занятия находится по ссылке [Поиск опен-сорс проекта](../documenting-api-endpoints/find-open-source-project.md)
+Подробная информация для этого практического занятия находится по ссылке [Поиск опен-сорс проекта](find-open-source-project.html)
 
 ### Практическое занятие "Оценка ключевых элементов API документации""
 
@@ -352,35 +351,35 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=
 
 Практическое занятие позволит рассмотреть документацию API и определить общие элементы. Для оценки документации:
 
-1. В [списке 100 сайтов с API документацией](../Publishing-doc/API-doc-sites-list.md) или из [ полученного на предыдущем практическом занятии результата](../documenting-api-endpoints/find-open-source-project.md) выбираем сайт или несколько сайтов с API документацией
-2. На каждом сайте ищем секцию документации API ссылок (список конечных точек)
-3. В документации по каждой ссылке находим информацию:
- - [описание ресурса](../documenting-api-endpoints/step1-resourse-description.md);
- - [конечные точки и методы](../documenting-api-endpoints/step2-endpoints-and-methods.md);
- - [параметры](../documenting-api-endpoints/step3-parameters.md);
- - [примеры запроса](../documenting-api-endpoints/step4-request-example.md);
- - [примеры ответа и схемы](../documenting-api-endpoints/step5-response-example-and-schema.md).
+- В [списке 100 сайтов с API документацией](API-doc-sites-list.html) или из [ полученного на предыдущем практическом занятии результата](find-open-source-project.html) выбираем сайт или несколько сайтов с API документацией
+- На каждом сайте ищем секцию документации API ссылок (список конечных точек)
+- В документации по каждой ссылке находим информацию:
+  - [описание ресурса](step1-resourse-description.html);
+  - [конечные точки и методы](step2-endpoints-and-methods.html);
+  - [параметры](step3-parameters.html);
+  - [примеры запроса](step4-request-example.html);
+  - [примеры ответа и схемы](step5-response-example-and-schema.html).
 
 > Названия разделов могут отличаться на разных сайтах API-документации, но обычно они легко узнаваемы.
 
-4. Оцените документацию API, ответив на следующие вопросы для каждого раздела:
- - Описание ресурса
+- Оцените документацию API, ответив на следующие вопросы для каждого раздела:
+  - Описание ресурса
     - является ли описание action-oriented?
     - краткое ли резюме (1-3 предложения)?
- - Конечные точки и методы
+  - Конечные точки и методы
     - как сгруппированы конечные точки (на одной или нескольких страницах? Сгруппированы по методу или по ресурсу)?
     - как определены методы для каждой конечной точки?
- - Параметры
+  - Параметры
     - сколько параметров у конечной точки (заголовок, путь, строка запроса, параметры тела запроса)?
     - определены ли типы данных для каждого параметра (string, boolean, etc)? указаны мин/макс значения?
- - Примеры запроса
+  - Примеры запроса
     - в каком формате или на каком языке показан запрос (curl, специфичный язык или другое)?
     - сколько параметров включает в себя пример запроса?
- - Примеры ответа
+  - Примеры ответа
     - представлены ли ответ и схема ответа? актуально ли описание каждого элемента?
 - как сайт документации обрабатывает вложенные иерархии в определениях ответов 		
 
-Подробная информация для этого практического занятия находится по ссылке [Оценка ключевых элементов API документации](../documenting-api-endpoints/evaluate-api-referense-docs.md)			
+Подробная информация для этого практического занятия находится по ссылке [Оценка ключевых элементов API документации](evaluate-api-referense-docs.html)			
 
 ## Часть 4 OpenAPI и Swagger
 
