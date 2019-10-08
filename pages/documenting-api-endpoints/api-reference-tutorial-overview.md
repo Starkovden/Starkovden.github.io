@@ -46,7 +46,7 @@ folder: documenting-api-endpoints
 
 Ниже наскоро сделанная карта рабочего процесса, чтобы помочь сориентироваться на каждом шаге.
 
-| [Шаг 1. Описание ресурса](step1-resourse-description.html) |-->| [Шаг 2. Конечные точки и методы](step2-endpoints-and-methods.html) |-->| [Шаг 3. Параметры](step3-parameters.html) |-->| [Шаг 4. Пример запроса](step4-request-example.html)|-->| [Шаг 5. Пример и схема ответа](step5-response-example-and-schema.html) |
+| [Шаг 1. Описание ресурса](step1-resourse-description.html) |>| [Шаг 2. Конечные точки и методы](step2-endpoints-and-methods.html) |>| [Шаг 3. Параметры](step3-parameters.html) |>| [Шаг 4. Пример запроса](step4-request-example.html)|>| [Шаг 5. Пример и схема ответа](step5-response-example-and-schema.html) |
 
 <a name="afterTutorial"></a>
 ## После описания
