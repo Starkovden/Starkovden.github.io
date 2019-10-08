@@ -19,14 +19,18 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Обзор
+  - title: Модуль 1 "Введение в REST API"
     output: web, pdf
     folderitems:
 
-    - title: Введение
+    - title: Описание
       url: /index.html
       output: web, pdf
       type: homepage
+
+    - title: О модуле "Введение в REST API"
+      url: /about-firt-module.md
+      output: web, pdf
 
     - title: Обзор курса
       url: /course-overview.html
@@ -36,16 +40,32 @@ entries:
       url: /video-presentations.html
       output: web, pdf
 
-    - title: Supported features
-      url: /mydoc_supported_features.html
+    - title: Презентации курса
+      url: /course-slides.html
       output: web, pdf
 
-    - title: About the theme author
-      url: /mydoc_about.html
+    - title: Практические занятия
+      url: /workshop-activities.html
       output: web, pdf
 
-    - title: Support
-      url: /mydoc_support.html
+    - title: Для чего этот курс
+      url: /what-for-this-course.html
+      output: web, pdf
+
+    - title: Об авторе курса
+      url: /about-the-author.html
+      output: web, pdf
+
+    - title: Рынок документации
+      url: /api-doc-market.html
+      output: web, pdf
+
+    - title: Что такое REST API
+      url: /what-is-rest-api.html
+      output: web, pdf
+
+    - title: Практика "Определение цели"
+      url: /identify-goals.html
       output: web, pdf
 
   - title: Release Notes
