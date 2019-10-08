@@ -180,9 +180,85 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: О модуле
+      url: /about-fourth-module.html
+      output: web, pdf
+
+    - title: Обзор форматов спецификаций REST API
+      url: /overview-specification-formats.html
+      output: web, pdf
+
+    - title: Знакомство со спецификациями OpenAPI и Swagger
+      url: /introduction-openapi-and-swagger.html
+      output: web, pdf
+
+    - title: Работа в YAML
+      url: /working-in-YAML.html
+      output: web, pdf
+
+    - title: Обзор руководства OpenAPI 3.0
+      url: /openapi-tutorial-overview.html
+      output: web, pdf
+
+    - title: Шаг 1 "Объект openapi"
+      url: /step1-openapi-object.html
+      output: web, pdf
+
+    - title: Шаг 2 "Объект info"
+      url: /step2-info-object.html
+      output: web, pdf
+
+    - title: Шаг3 "Объект servers"
+      url: /step3-servers-object.html
+      output: web, pdf
+
+    - title: Шаг 4 "Объект paths"
+      url: /step4-paths-object.html
+      output: web, pdf
+
+    - title: Шаг 5 "Объект components"
+      url: /step5-components-object.html
+      output: web, pdf
+
+    - title: Шаг 6 "Объект security"
+      url: /step6-security-object.html
+      output: web, pdf
+
+    - title: Шаг 7 "Объект tags"
+      url: /step7-tags-object.html
+      output: web, pdf
+
+    - title: Шаг 8 "Объект externalDocs"
+      url: /step8-externalDocs-object.html
+      output: web, pdf
+
+    - title: Практическое занятие "Создание спецификации OpenAPI"
+      url: /create-openapi-specification.html
+      output: web, pdf
+
+    - title: Руководство Swagger UI
+      url: /swagger-ui-tutorial.html
+      output: web, pdf
+
+    - title: Демо Swagger UI
+      url: /swagger-ui-demo.html
+      output: web, pdf
+
+    - title: Введение и руководство SwaggerHub
+      url: /swaggerhub-introduction-and-tutorial.html
+      output: web, pdf
+
+    - title: Stoplight
+      url: /stoplight.html
+      output: web, pdf
+
+    - title: Интеграция Swagger с документацией
+      url: /integrating-swagger-with-docs.html
+      output: web, pdf
+
   - title: Тестирование документации
-     output: web, pdf
-     folderitems:
+    output: web, pdf
+    folderitems:
 
   - title: Концептуальные разделы
     output: web, pdf
