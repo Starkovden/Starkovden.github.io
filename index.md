@@ -19,9 +19,9 @@ permalink: index.html
 
 ## Модули курса
 
-1. [**О модуле "Введение в REST API"**](introduction-rest-apis/about-first-module.html)
+1. [**О модуле "Введение в REST API"**](about-first-module.html)
 
-    - [**Обзор курса**](introduction-rest-apis/course-overview.html)
+    - [**Обзор курса**](course-overview.html)
     - [**Видео презентации**](introduction-rest-apis/video-presentations.html)
     - [**Слайды курса**](introduction-rest-apis/course-slides.html)
     - [**Практические занятия**](introduction-rest-apis/workshop-activities.html)
