@@ -19,14 +19,14 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Описание курса
+    url: /index.html
+    output: web, pdf
+    type: homepage
+
   - title: Модуль 1 "Введение в REST API"
     output: web, pdf
     folderitems:
-
-    - title: Описание
-      url: /index.html
-      output: web, pdf
-      type: homepage
 
     - title: О модуле "Введение в REST API"
       url: /about-firt-module.md
