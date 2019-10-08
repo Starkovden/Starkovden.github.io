@@ -1,7 +1,6 @@
 ---
 title: "Курс по документированию REST API"
-keywords: sample homepage
-tags: [getting_started]
+keywords: документирование API, technical writers, технический писатель, курс документирования
 sidebar: mydoc_sidebar
 permalink: index.html
 ---
