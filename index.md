@@ -15,18 +15,18 @@ permalink: index.html
 
 Во время прохождения курса мы изучим стандарты, инструменты и спецификации REST API. Узнаем о необходимых разделах в документации API, проанализируем примеры документации REST API различных компаний, узнаем, как присоединиться к проекту c открытым исходным кодом, чтобы получить опыт, и многое другое.
 
-[Начать обучение 👨‍💻](introduction-rest-apis/about-first-module.html)
+[Начать обучение 👨‍💻](about-first-module.html)
 
 ## Модули курса
 
 1. [**О модуле "Введение в REST API"**](about-first-module.html)
 
     - [**Обзор курса**](course-overview.html)
-    - [**Видео презентации**](introduction-rest-apis/video-presentations.html)
-    - [**Слайды курса**](introduction-rest-apis/course-slides.html)
-    - [**Практические занятия**](introduction-rest-apis/workshop-activities.html)
-    - [**Для чего этот курс**](introduction-rest-apis/what-for-this-course.html)
-    - [**Об авторе**](introduction-rest-apis/about-the-author.html)
-    - [**Рынок документации REST API**](introduction-rest-apis/api-doc-market.html)
-    - [**Что такое REST API**](introduction-rest-apis/what-is-rest-api.html)
-    - [**Практика: Определение цели**](introduction-rest-apis/identify-goals.html)
+    - [**Видео презентации**](video-presentations.html)
+    - [**Слайды курса**](course-slides.html)
+    - [**Практические занятия**](workshop-activities.html)
+    - [**Для чего этот курс**](what-for-this-course.html)
+    - [**Об авторе**](about-the-author.html)
+    - [**Рынок документации REST API**](api-doc-market.html)
+    - [**Что такое REST API**](what-is-rest-api.html)
+    - [**Практика: Определение цели**](identify-goals.html)
