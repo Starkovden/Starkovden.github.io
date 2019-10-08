@@ -1,3 +1,12 @@
+---
+title: Презентации курса
+last_updated: Oct 8, 2019
+keywords: документирование API, technical writers, технический писатель, описание курса
+sidebar: mydoc_sidebar
+permalink: course-slides.html
+folder: introduction-rest-api
+---
+
 # Слайды курса
 
 Слайды соответствуют семинарам по API, которые проводил автор курса. Группы слайдов отражают одни и те же модули курса (большинство модулей имеют слайды, но не все).
@@ -16,6 +25,6 @@
 
 [Работа писателя документации API](https://idratherbewriting.com/learnapidoc/slides/getting_job_api_docs.html#/)
 
-[🔙](video-presentations.md)
+[🔙](video-presentations.html)
 
-[Go next ➡](workshop-activities.md)
+[Go next ➡](workshop-activities.html)
