@@ -7,8 +7,6 @@ permalink: course-slides.html
 folder: introduction-rest-api
 ---
 
-# Слайды курса
-
 Слайды соответствуют семинарам по API, которые проводил автор курса. Группы слайдов отражают одни и те же модули курса (большинство модулей имеют слайды, но не все).
 
 [Знакомство с документацией API](https://idratherbewriting.com/learnapidoc/slides/intro_api_documentation.html#/)
