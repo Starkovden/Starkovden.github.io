@@ -28,7 +28,7 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: О модуле "Введение в REST API"
+    - title: О модуле
       url: /about-first-module.html
       output: web, pdf
 
@@ -68,17 +68,58 @@ entries:
       url: /identify-goals.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: Модуль 2 "Использование API в роли разработчика"
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
+    - title: О модуле
+      url: /about-second-module.html
       output: web, pdf
 
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
+    - title: Сценарий использования API сервиса прогноза погоды
+      url: /using-api-scenario.html
       output: web, pdf
+
+    - title: Получение ключей авторизации
+      url: /get-authorization-keys.html
+      output: web, pdf
+
+    - title: Отправка запросов в Postman
+      url: /submit-requests-postman.html
+      output: web, pdf
+
+    - title: Введение и установка curl
+      url: /curl-intro-and-instalation.html
+      output: web, pdf
+
+    - title: Создание curl запроса
+      url: /make-curl-call.html
+      output: web, pdf
+
+    - title: Понимание curl
+      url: /understand-curl.html
+      output: web, pdf
+
+    - title: Использование методов с curl
+      url: /use-methods-with-curl.html
+      output: web, pdf
+
+    - title: Анализ JSON ответов
+      url: /analyze-json-response.html
+      output: web, pdf
+
+    - title: Изучение полезных данных JSON ответа
+      url: /inspect-json.html
+      output: web, pdf
+
+    - title: Доступ и вывод на страницу определенного значения JSON
+      url: /access-print-value.html
+      output: web, pdf
+
+    - title: Погружение в точечную нотацию
+      url: /dot-notation.html
+      output: web, pdf
+
 
   - title: Installation
     output: web, pdf
