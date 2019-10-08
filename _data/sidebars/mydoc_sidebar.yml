@@ -175,3 +175,35 @@ entries:
     - title: Практическое занятие "Оценка ключевых элементов API документации"
       url: /evaluate-api-referense-docs.html
       output: web, pdf
+
+  - title: Спецификация OpenAPI и Swagger
+    output: web, pdf
+    folderitems:
+
+  - title: Тестирование документации
+     output: web, pdf
+     folderitems:
+
+  - title: Концептуальные разделы
+    output: web, pdf
+    folderitems:
+
+  - title: Публикация документации
+    output: web, pdf
+    folderitems:
+
+  - title: Работа технического писателя
+    output: web, pdf
+    folderitems:
+
+  - title: Нативные библиотеки API
+    output: web, pdf
+    folderitems:
+
+  - title: Глоссарий API и источники
+    output: web, pdf
+    folderitems:
+
+  - title: Документирование кода
+    output: web, pdf
+    folderitems:
