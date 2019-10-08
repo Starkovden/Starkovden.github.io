@@ -29,7 +29,7 @@ entries:
       type: homepage
 
     - title: О модуле "Введение в REST API"
-      url: /about-firt-module.md
+      url: /about-first-module.html
       output: web, pdf
 
     - title: Обзор курса
