@@ -125,11 +125,7 @@ entries:
     folderitems:
 
     - title: О модуле
-      url: /about-second-module.html
-      output: web, pdf
-
-    - title: Сценарий использования API сервиса прогноза погоды
-      url: /using-api-scenario.html
+      url: /about-third-module.html
       output: web, pdf
 
     - title: Документирование новой конечной точки
