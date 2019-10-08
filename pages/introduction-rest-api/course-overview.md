@@ -26,7 +26,7 @@ folder: introduction-rest-api
 
 {% include image.html file="introduction-rest-api/request.jpg" alt="request" caption="REST API используют запросы и ответы по протоколу HTTP" %}
 
-Более подробно о принципах REST в файле [Что такое REST API?](what-is-rest-api.md). В документации API REST описываются различные конечные точки, их методы, параметры и другие сведения, а также документируются образцы ответов от конечных точек.
+Более подробно о принципах REST в файле [Что такое REST API?](what-is-rest-api.html). В документации API REST описываются различные конечные точки, их методы, параметры и другие сведения, а также документируются образцы ответов от конечных точек.
 
 <a name="from-practice-to-doc"></a>
 ## От практики до документации
@@ -35,17 +35,17 @@ folder: introduction-rest-api
 
 Как технические писатели, будем рассматривать каждый элемент в документации REST API:
 
-1. [Описание ресурса](../documenting-api-endpoints/step1-resourse-description.md)
-2. [Конечная точка и методы](../documenting-api-endpoints/step2-endpoints-and-methods.md)
-3. [Параметры](../documenting-api-endpoints/step3-parameters.md)
-4. [Пример запроса](../documenting-api-endpoints/step4-request-example.md)
-5. [Пример ответа](../documenting-api-endpoints/step5-response-example-and-schema.md)
+1. [Описание ресурса](step1-resourse-description.html)
+2. [Конечная точка и методы](step2-endpoints-and-methods.html)
+3. [Параметры](step3-parameters.html)
+4. [Пример запроса](step4-request-example.html)
+5. [Пример ответа](step5-response-example-and-schema.html)
 
-Изучение этих разделов даст четкое представление о том, как документировать REST API. Также узнаем, как документировать [концептуальные разделы API](../conceptual-topics/README.md), такие как [руководство по началу работы](../conceptual-topics/getting-started.md), [коды статусов и ошибок](../conceptual-topics/status-error-codes.md), [авторизация запроса](../conceptual-topics/authentication-and-authorization.md) и т.д.
+Изучение этих разделов даст четкое представление о том, как документировать REST API. Также узнаем, как документировать [концептуальные разделы API](about-sixth-module.html), такие как [руководство по началу работы](getting-started.html), [коды статусов и ошибок](status-error-codes.html), [авторизация запроса](authentication-and-authorization.html) и т.д.
 
-Наконец, изучим разные способы [публикации API документации](../Publishing-doc/README.md), изучим инструменты и спецификации, такие как [GitHub](../Publishing-doc/Manage-wiki-content.md), [Jekyll](../Publishing-doc/Jekyll-and-cloudCannon.md) и подходы [Docs-as-code](../Publishing-doc/Doc-as-code-tools.md). Узнаем, как использовать шаблоны, создавать интерактивные консоли API, чтобы пользователи могли опробовать запросы и посмотреть ответы, а также узнаем, как управлять своим контентом с помощью [контроля версий](../Publishing-doc/Version-control-system.md).
+Наконец, изучим разные способы [публикации API документации](about-seventh-module.html), изучим инструменты и спецификации, такие как [GitHub](Manage-wiki-content.html), [Jekyll](Jekyll-and-cloudCannon.html) и подходы [Docs-as-code](Doc-as-code-tools.html). Узнаем, как использовать шаблоны, создавать интерактивные консоли API, чтобы пользователи могли опробовать запросы и посмотреть ответы, а также узнаем, как управлять своим контентом с помощью [контроля версий](Version-control-system.html).
 
-Мы также окунемся в спецификации, такие как [спецификация OpenAPI](../openAPI-specification/openapi-tutorial-overview.md) и [Swagger](../openAPI-specification/introduction-openapi-and-swagger.md), который предоставляют инструментарий для спецификации OpenAPI. Кроме того, вы узнаете, [как документировать нативные библиотеки API](../Native-library/README.md) и генерировать [Javadoc](../Native-library/Activity-Generate-Javadoc.md). Все концепции в реальные с примерами и демонстрациями.
+Мы также окунемся в спецификации, такие как [спецификация OpenAPI](openapi-tutorial-overview.html) и [Swagger](introduction-openapi-and-swagger.html), который предоставляют инструментарий для спецификации OpenAPI. Кроме того, вы узнаете, [как документировать нативные библиотеки API](Rabout-ninth-module.html) и генерировать [Javadoc](Activity-Generate-Javadoc.html). Все концепции в реальные с примерами и демонстрациями.
 
 <a name="who-the-course-is-for"></a>
 ## Для кого этот курс
