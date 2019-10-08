@@ -1,4 +1,11 @@
-# Практические занятия
+---
+title: Практические занятия курса
+last_updated: Oct 8, 2019
+keywords: документирование API, technical writers, технический писатель, описание курса
+sidebar: mydoc_sidebar
+permalink: workshop-activities.html
+folder: introduction-rest-api
+---
 
 В разделе собраны практические занятия всего курса.
 
