@@ -55,7 +55,7 @@ folder: introduction-rest-api
 
 Какие учетные данные нужны для получения ответа?  
 
-Подробная информация для этого практического занятия находится по ссылке [Сценарий Использования API погоды](../like-developer/using-api-scenario.md)
+Подробная информация для этого практического занятия находится по ссылке [Сценарий Использования API погоды](using-api-scenario.html)
 
 ### Практическое занятие "Получаем ключ авторизации OpenWeatherMap"
 
@@ -67,7 +67,7 @@ folder: introduction-rest-api
 4. После входа попадаем в панель разработчика. Кликнуть на плашку `API key`  
 5. Сохранить сгенерированный ключ в удобном месте.
 
-Подробная информация для этого практического занятия находится по ссылке [Получение ключа авторизации](../like-developer/get-authorization-keys.md)
+Подробная информация для этого практического занятия находится по ссылке [Получение ключа авторизации](get-authorization-keys.html)
 
 ### Практическое занятие "Создаем запрос в Postman"
 
@@ -93,7 +93,7 @@ folder: introduction-rest-api
 
 Интерфейс Postman будет выглядеть так:
 
-![Postman_params](pics/3.png)
+{% include image.html file="introduction-rest-api/3.png" alt="Postman_params" %}
 
 При добавлении параметров они будут отображаются в виде строки запроса к URL-адресу конечной точки в поле GET.
 
@@ -107,7 +107,7 @@ folder: introduction-rest-api
 
 Ответ появится в нижней панели. Пример:
 
- ![Postman_response](pics/4.png)
+{% include image.html file="introduction-rest-api/4.png" alt="Postman_response" %}
 
 #### Сохраняем запрос
 
@@ -118,7 +118,7 @@ folder: introduction-rest-api
 
 После создания папки кнопка `Save` станет активной. Диалоговое окно будет выглядеть примерно так:
 
-![Save_request](pics/5.png)
+{% include image.html file="introduction-rest-api/5.png" alt="Save_request" %}
 
 5. Нажать `Save to (имя папки)`
 
@@ -152,7 +152,7 @@ https://api.openweathermap.org/data/2.5/forecast?zip=95050&appid=APIKEY&units=im
 https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&units=imperial&appid=fd4698c940c6d1da602a70ac34f0b147
 ```
 
-Подробная информация для этого практического занятия находится по ссылке [Отправка запросов через Postman](../like-developer/submit-requests-postman.md)
+Подробная информация для этого практического занятия находится по ссылке [Отправка запросов через Postman](submit-requests-postman.html)
 
 ### Практическое занятие 2.4. Создаем запрос в curl
 
@@ -162,7 +162,7 @@ https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&
 2. В любом запросе кликаем на кнопку `Code` под кнопкой `Save`
 3. В диалоговом окне "Generate Code Snippets" выбираем cURL из выпадающего списка и нажимаем на кнопку `Copy to Clipboard`
 
-![Generate_code_snippets](pics/6.png)
+{% include image.html file="introduction-rest-api/6.png" alt="Generate_code_snippets" %}
 
 Код Postman для запроса прогноза погоды OpenWeatherMap выглядит в формате cURL следующим образом:
 
@@ -209,56 +209,56 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=
 На этом занятии будем использовать JavaScript для отображения ответа API на веб-странице. Для создания запроса AJAX будем использовать автоматически сгенерированный код jQuery из Postman.
 
 1. В текстовом редакторе (например, Sublime Text) создадим новый файл HTML (который содержит основные теги HTML) и вставим в него следующий скрипт:
-2.
-```html
-<html>
-<meta charset="UTF-8">
-  <head>
-      <title>Sample page</title>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  </head>
-<body>
-  <h2>Sample page</h2>
 
-</body>
-</html>
-```
+	```html
+	<html>
+	<meta charset="UTF-8">
+	  <head>
+	      <title>Sample page</title>
+	      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	  </head>
+	<body>
+	  <h2>Sample page</h2>
+
+	</body>
+	</html>
+	```
 
 2. Сохраняем файл на ПК, с именем **weather.html**.
 3. Открываем Postman и переходим к конечной точке, которую вы настроили в предыдущем действии (см. «Создаем запросы в Postman»).
 4. Кликаем на кнопку `Code` и выбираем **JavaScript > jQuery AJAX**.
 
-![jQuery_AJAX](pics/7.png)
+{% include image.html file="introduction-rest-api/7.png" alt="jQuery_AJAX" %}
 
 Код AJAX должен выглядеть так:
 
-```javascript
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=fd4698c940c6d1da602a70ac34f0b147&units=imperial",
-  "method": "GET",
-  "headers": {
-    "cache-control": "no-cache",
-    "postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
-  }
-}
+	```
+	var settings = {
+	  "async": true,
+	  "crossDomain": true,
+	  "url": "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=fd4698c940c6d1da602a70ac34f0b147&units=imperial",
+	  "method": "GET",
+	  "headers": {
+	    "cache-control": "no-cache",
+	    "postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
+	  }
+	}
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-```
+	$.ajax(settings).done(function (response) {
+	  console.log(response);
+	});
+	```
 
 5. Нажимаем кнопку `Copy to Clipboard` для копирования примера кода.
 6. В том же шаблоне, который начали создавать на шаге 1, добавляем пару тегов `<script></script>` под ссылкой jQuery, а затем вставляем скопированный код Postman между тегов `script`.
 7. В коде jQuery убираем объект `headers`, вставленный Postman
-8.
-```javascript
-"headers": {
-	"cache-control": "no-cache",
- 	"postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
-	}
-```
+
+	```javascript
+	"headers": {
+		"cache-control": "no-cache",
+	 	"postman-token": "e9be9756-b922-89b3-7109-66bc4cf06b17"
+		}
+	```
 
 8. Убираем запятую после `"method": "GET"`.
 
