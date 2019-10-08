@@ -2,7 +2,7 @@
 title: Создаем curl вызов
 last_updated: Oct 8, 2019
 sidebar: mydoc_sidebar
-permalink: curl-intro-and-instalation.html
+permalink: make-curl-call.html
 folder: like-developer
 ---
 
