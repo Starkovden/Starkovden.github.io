@@ -30,3 +30,17 @@ permalink: index.html
     - [**Рынок документации REST API**](api-doc-market.html)
     - [**Что такое REST API**](what-is-rest-api.html)
     - [**Практика: Определение цели**](identify-goals.html)
+
+2. [**О модуле "Использование API в роли разработчика""**](about-second-module.html)
+
+    - [**Сценарий использования API погоды**](using-api-scenario.html)
+    - [**Получение ключей авторизации**](like-developer/get-authorization-keys.html)
+    - [**Отправка запросов в Postman**](like-developer/submit-requests-postman.html)
+    - [**Введение и установка curl**](like-developer/curl-intro-and-instalation.html)
+    - [**Создание curl запроса**](like-developer/make-curl-call.html)
+    - [**Понимание curl**](like-developer/understand-curl.html)
+    - [**Использование методов с curl**](like-developer/use-methods-with-curl.html)
+    - [**Анализ JSON ответов**](like-developer/analyze-json-response.html)
+    - [**Изучение полезных данных JSON ответа**](like-developer/inspect-json.html)
+    - [**Доступ и вывод на страницу определенного значения JSON**](like-developer/access-print-value.html)
+    - [**Погружение в точечную нотацию**](like-developer/dot-notation.html)
