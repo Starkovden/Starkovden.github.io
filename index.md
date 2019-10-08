@@ -44,3 +44,17 @@ permalink: index.html
     - [**Изучение полезных данных JSON ответа**](inspect-json.html)
     - [**Доступ и вывод на страницу определенного значения JSON**](access-print-value.html)
     - [**Погружение в точечную нотацию**](dot-notation.html)
+
+3. [**О модуле "Документирование конечных точек"**](about-third-module.html)
+
+    - [**Документирование новой конечной точки**](new-endpoint.html)
+    - [**Обзор пошагового описания API ссылки**](api-reference-tutorial-overview.html)
+    - [**Шаг 1: Описание ресурса**](step1-resourse-description.html)
+    - [**Шаг 2: Конечные точки и методы**](step2-endpoints-and-methods.html)
+    - [**Шаг 3: Параметры**](step3-parameters.html)
+    - [**Шаг 4: Пример запроса**](step4-request-example.html)
+    - [**Шаг 5: Пример и схема ответа**](step5-response-example-and-schema.html)
+    - [**Собираем все вместе**](putt-all-together.html)
+    - [**Практическое занятие: Что не так в разделе API?**](whats-wrong.html)
+    - [**Практическое занятие: Поиск open-source проекта**](find-open-source-project.html)
+    - [**Практическое занятие: Оценка ключевых элементов API документации**](evaluate-api-referense-docs.html)
