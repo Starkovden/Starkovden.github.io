@@ -14,25 +14,26 @@ folder: introduction-rest-api
 Записи семинара по API документации в Менло-Парке, штат Калифорния, 8 ноября 2018 года. (Более подробную информацию см. [В этом сообщении в блоге](https://idratherbewriting.com/2018/10/31/upcoming-api-doc-workshop/).) Эта запись тесно связана с последним содержанием и упражнениями в этом курсе. Семинар разделен на пять видео.
 
 <a name="video1"></a>
-[Видео 1](https://youtu.be/X1u453Gtw9g)
+{% include image.html file="introduction-rest-api/31.jpg" alt="Видео 1" caption="Видео 1" %}
 
-https://youtu.be/X1u453Gtw9g
+
 
 <a name="video2"></a>
-[Видео 2](https://youtu.be/FuZfob2eVb4)
+{% include image.html file="introduction-rest-api/32.jpg" alt="Видео 2" caption="Видео 2" %}
+
 
 <a name="video3"></a>
-[Видео 3](https://youtu.be/GgA8772arys)
+{% include image.html file="introduction-rest-api/33.jpg" alt="Видео 3" caption="Видео 3" %}
 
 <a name="video4"></a>
-[Видео 4](https://youtu.be/mLnea0LLTh4)
+{% include image.html file="introduction-rest-api/34.jpg" alt="Видео 4" caption="Видео 5" %}
 
 <a name="video5"></a>
-[Видео 5](https://youtu.be/9mSqxqV7TXY)
+{% include image.html file="introduction-rest-api/35.jpg" alt="Видео 4" caption="Видео 4" %}
 
 Ниже основные моменты всех семинаров собраны в часовое видео:
 
-[one-hour](https://youtu.be/5pzhtrrtkXY)
+{% include image.html file="introduction-rest-api/30.jpg" alt="full video" caption="Полная версия" %}
 
 Если предпочитаете слушать записи, то ниже ссылки на аудио записи семинаров
 
@@ -56,6 +57,7 @@ https://youtu.be/X1u453Gtw9g
 Записи семинара по API документации в Денвере, штат Колорадо, 10 марта 2018 года. (Подробнее см. [В этом сообщении в блоге](https://idratherbewriting.com/2018/03/12/api-documentation-workshop-in-denver/)). Эта версия семинара немного отличается от последней версии курса, но содержание хорошее. Видео разделено на три части.
 
 <a name="part1"></a>
+
 [Часть первая](https://youtu.be/Ivum3YbOWQ4)
 
 <a name="part2"></a>
