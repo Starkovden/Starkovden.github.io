@@ -18,7 +18,7 @@ folder: introduction-rest-api
 
 {% include image.html file="introduction-rest-api/26.jpg" alt="apigear" caption="API - как шестеренка, приводящая в движение две соседние шестеренки" %}
 
-Картинка взята с ресурса [Brent 2.0](https://www.flickr.com/photos/brentinoz/), [spinning gears](https://www.flickr.com/photos/brentinoz/4221291984/in/photolist-7r2e3h-nhM5Kn-9PDqYT-7HSuP2-7g3xAd-8q4jPo-tayRY-2H3cN6-neAkck-7EuejF-dd6uSk-4WHXzW-7nQPxk-eTrHmi-9BczGJ-8LTBeU-4SBTBv-6n2Nub-7rSg96-JbqW-A5Zo9-5QKUDu-dghHFw-4gfkH4-6f51Po-41m6XU-9BcWD7-2VFgTi-6oBdBR-555yd1-4ocopJ-9qKfUg-9KhTbj-82Qzh9-7u4cEz-eTrH2B-fJZXmL-aTDbqV-7N1BFh-28i54x-aTDbSD-9kVJyu-fPzHRX-dv29a3-5cSUgy-4FeamA-9B9HhD-dZMGtX-boZyKp-65TnuR), [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/legalcode)
+*Картинка взята с ресурса [Brent 2.0](https://www.flickr.com/photos/brentinoz/), [spinning gears](https://www.flickr.com/photos/brentinoz/4221291984/in/photolist-7r2e3h-nhM5Kn-9PDqYT-7HSuP2-7g3xAd-8q4jPo-tayRY-2H3cN6-neAkck-7EuejF-dd6uSk-4WHXzW-7nQPxk-eTrHmi-9BczGJ-8LTBeU-4SBTBv-6n2Nub-7rSg96-JbqW-A5Zo9-5QKUDu-dghHFw-4gfkH4-6f51Po-41m6XU-9BcWD7-2VFgTi-6oBdBR-555yd1-4ocopJ-9qKfUg-9KhTbj-82Qzh9-7u4cEz-eTrH2B-fJZXmL-aTDbqV-7N1BFh-28i54x-aTDbSD-9kVJyu-fPzHRX-dv29a3-5cSUgy-4FeamA-9B9HhD-dZMGtX-boZyKp-65TnuR), [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/legalcode)*
 
 API часто получают данные из пользовательских интерфейсов. Джим Биссо, опытный технический писатель API в области Силиконовой долины, описал API, используя аналогию калькулятора компьютера. Когда нажимаем кнопки, скрытые функции взаимодействуют с другими компонентами для получения информации. Как только информация возвращается, калькулятор представляет данные обратно в графический интерфейс.
 
