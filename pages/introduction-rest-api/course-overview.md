@@ -1,6 +1,7 @@
 ---
 title: Документация API "Руководство для технических писателей"
 last_updated: Oct 7, 2019
+keywords: документирование API, technical writers, технический писатель, описание курса
 sidebar: mydoc_sidebar
 permalink: course-overview.html
 folder: introduction-rest-api
