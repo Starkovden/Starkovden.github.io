@@ -148,15 +148,15 @@ entries:
       url: /step2-endpoints-and-methods.html
       output: web, pdf
 
-    - title: Шаг 3: Параметры
+    - title: Шаг 3 "Параметры"
       url: /step3-parameters.html
       output: web, pdf
 
-    - title: Шаг 4: Пример запроса
+    - title: Шаг 4 "Пример запроса"
       url: /step4-request-example.html
       output: web, pdf
 
-    - title: Шаг 5: Пример и схема ответа
+    - title: Шаг 5 "Пример и схема ответа"
       url: /step5-response-example-and-schema.html
       output: web, pdf
 
