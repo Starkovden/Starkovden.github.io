@@ -2,7 +2,7 @@
 title: Глубокое понимание curl
 last_updated: Oct 8, 2019
 sidebar: mydoc_sidebar
-permalink: make-curl-call.html
+permalink: understand-curl.html
 folder: like-developer
 ---
 
