@@ -2,7 +2,7 @@
 title: Шаг 1 "Описание ресурса (Описание API)"
 last_updated: Oct 8, 2019
 sidebar: mydoc_sidebar
-permalink: api-reference-tutorial-overview.html
+permalink: step1-resourse-description.html
 folder: documenting-api-endpoints
 ---
 
