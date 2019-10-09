@@ -44,15 +44,15 @@ folder: testing-api-doc
 После того, как получены мультимедийный материал, интегрировать их в Fire App Builder было легко, потому что, в конце концов, для этого уже есть документацию.
 Отправка приложения в AppStore является увлекательной частью рабочего процесса разработчика, которые могут быть не понятны тех.писателю. Просмотреть приложение подкаста Write the Docs на веб-сайте Amazon AppStore [здесь](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs).
 
-{% include image.html file="testing-api-doc/2.jpg" alt="podcast" %}
+{% include image.html file="testing-api-doc/2.png" alt="podcast" %}
 
 Вот как выглядят экраны приложений на Fire TV:
 
-{% include image.html file="testing-api-doc/3.jpg" alt="app1" %}
+{% include image.html file="testing-api-doc/3.png" alt="app1" %}
 
 Если выбрать видео, появится экран предварительного просмотра:
 
-{% include image.html file="testing-api-doc/4.jpg" alt="prevideo" %}
+{% include image.html file="testing-api-doc/4.png" alt="prevideo" %}
 
 Казалось, что все прошло хорошо, но потом обнаружились некоторые ошибки, которые не обнаружить, без отправки приложения в AppStore. Во-первых, ориентация на устройства (перечисление определенных функций в манифесте Android для определения того, какие устройства Fire поддерживает приложение) не работает правильно для приложений Fire TV. (Эта проблема не была напрямую связана с шаблоном приложения.)
 
