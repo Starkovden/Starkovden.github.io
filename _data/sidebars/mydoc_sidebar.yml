@@ -156,10 +156,6 @@ entries:
       url: /step5-response-example-and-schema.html
       output: web, pdf
 
-    - title: Изучение полезных данных JSON ответа
-      url: /inspect-json.html
-      output: web, pdf
-
     - title: Собираем все вместе
       url: /putt-all-together.html
       output: web, pdf
