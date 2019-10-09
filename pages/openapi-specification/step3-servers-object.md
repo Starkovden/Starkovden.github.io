@@ -1,14 +1,15 @@
-# Руководство OpenAPI Шаг 3: Объект `servers`
+---
+title: Руководство OpenAPI Шаг 3 Объект "servers"
+last_updated: Oct 9, 2019
+sidebar: mydoc_sidebar
+permalink: step3-servers-object.html
+folder: openapi-specification
+---
 
-| [*Шаг 1: объект* `openapi`](step1-openapi-object.md) | --> | [*Шаг 2: объект* `info`](step2-info-object.md) | --> | [**Шаг 3: объект** `servers`](step3-servers-object.md) | --> | [*Шаг 4: объект* `paths`](step4-paths-object.md) | --> | [*Шаг 5: объект* `components`](step5-components-object.md) | --> | [*Шаг 6: объект* `security`](step6-security-object.md) | --> | [*Шаг 7: объект* `tags`](step7-tags-object.md) | --> | [*Шаг 8: объект* `externalDocs`](step8-externalDocs-object.md) |
+
+| [*Шаг 1: объект* `openapi`](step1-openapi-object.html) | --> | [*Шаг 2: объект* `info`](step2-info-object.html) | --> | [**Шаг 3: объект** `servers`](step3-servers-object.html) | --> | [*Шаг 4: объект* `paths`](step4-paths-object.html) | --> | [*Шаг 5: объект* `components`](step5-components-object.html) | --> | [*Шаг 6: объект* `security`](step6-security-object.html) | --> | [*Шаг 7: объект* `tags`](step7-tags-object.html) | --> | [*Шаг 8: объект* `externalDocs`](step8-externalDocs-object.html) |
 
 В объекте `servers` указывается базовый путь, используемый в ваших запросах API. Базовый путь - это часть URL, которая находится перед конечной точкой.
-
-[Пример объекта `servers`](#sample)
-
-[Опции URL сервера](#options)
-
-[Отображение в Swagger UI](#appearance)
 
 <a name="sample"></a>
 ## Пример объекта `servers`
@@ -38,7 +39,7 @@ servers:
 
 В Swagger UI выбор из нескольких серверов осуществляется при помощи выпадающего списка
 
-![multiservers](img/7.png)
+{% include image.html file="openapi-specification/7.png" alt="multiservers" %}
 
 Если указан один сервер все равно будет отображаться выпадающий список, но с одним вариантом.
 
@@ -51,9 +52,8 @@ servers:
 
 Вставим объект `servers` (первый пример кода выше, показывающий только один URL) в редактор Swagger, добавив к имеющемуся коду. Swagger UI будет выглядеть следующим образом:
 
-![servers](img/8.png)
+{% include image.html file="openapi-specification/8.png" alt="servers" %}
 
+[🔙](step2-info-object.html)
 
-[🔙](step2-info-object.md)
-
-[Go next ➡](step4-paths-object.md)
+[Go next ➡](step4-paths-object.html)
