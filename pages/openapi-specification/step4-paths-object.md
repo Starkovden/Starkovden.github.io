@@ -115,8 +115,7 @@ paths:
 
 Вот объект `paths`, который включает детали `parameters`:
 
-{% highlights yml %}
-```    
+```yml   
 paths:
   /weather:
     get:
@@ -180,7 +179,6 @@ paths:
           enum: [json, xml, html]
           default: "json"
 ```
-{% endhighlight %}
 
 <a name="responses"></a>
 #### Объект `responses`
