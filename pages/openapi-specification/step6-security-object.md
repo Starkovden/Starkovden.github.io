@@ -134,8 +134,6 @@ components:
 
 `&Appid = fd4698c940c6d1da602a70ac34f0b147` "указывает, что ключ API включается в строку запроса, поэтому запрос будет авторизован. Если вы скопируете отправленный curl и вставите его в командную строку, вы увидите успешный ответ:
 
-![response](img/15.png)
-
 {% include image.html file="openapi-specification/15.png" alt="response" caption="Успешный curl response" %}
 
 Ответ сервера также отображается непосредственно в Swagger UI со ссылкой для его загрузки:
