@@ -10,33 +10,6 @@ folder: openapi-specification
 
 Дисплей пользовательского интерфейса Swagger спроектирован так, чтобы быть отзывчивым, однако  сворачиваемые разделы в модели по-прежнему имеют недостатки переполнения в представлениях, поэтому при встраивании можно столкнуться с некоторыми проблемами.
 
-<table>
-    <thead>
-    <tr><th>Name</th><th>Type</th><th>Description</th><th>Required?</th></tr>
-    </thead>
-    {% for parameter in site.data.swagger.paths.get.parameters %}
-        {% if parameter.in == "query" %}
-        <tr>
-            <td><code>{{ parameter.name }}</code></td>
-            <td><code>{{ parameter.type }}</code></td>
-            <td>
-            {% assign found = false %}
-            {% for param in site.data.swagger.paths.get.parameters %}
-                {% if parameter.name == param.name %}
-                    {{ param.description }}
-                    {% assign found = true %}
-                {% endif %}
-            {% endfor %}
-            {% if found == false %}
-                ** New parameter **
-            {% endif %}
-            </td>
-            <td><code>{{ parameter.required }}</code></td>
-        </tr>
-        {% endif %}
-    {% endfor %}
-</table>
-
 [🔙](swagger-ui-tutorial.html)
 
 [Go next ➡](swaggerhub-introduction-and-tutorial.html)
