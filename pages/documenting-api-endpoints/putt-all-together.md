@@ -2,7 +2,7 @@
 title:  Собираем все вместе (Описание API)
 last_updated: Oct 9, 2019
 sidebar: mydoc_sidebar
-permalink: step5-response-example-and-schema.html
+permalink: putt-all-together.html
 folder: documenting-api-endpoints
 ---
 
