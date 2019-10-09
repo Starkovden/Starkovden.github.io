@@ -1,5 +1,5 @@
 ---
-title: Руководство OpenAPI Шаг 1 "Объект `openapi`"
+title: Руководство OpenAPI Шаг 1 Объект "openapi"
 last_updated: Oct 9, 2019
 sidebar: mydoc_sidebar
 permalink: step1-openapi-object.html
