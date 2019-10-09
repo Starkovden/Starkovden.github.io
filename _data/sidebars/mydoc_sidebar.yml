@@ -256,6 +256,31 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: О модуле
+      url: /about-fifth-module.html
+      output: web, pdf
+
+    - title: Обзор тестирования документации
+      url: /overview-testing.html
+      output: web, pdf
+
+    - title: Настройка тестовой среды окружения
+      url: /set-up-test-environment.html
+      output: web, pdf
+
+    - title: Самостоятельное тестирование всех инструкций
+      url: /test-instructions-yourself.html
+      output: web, pdf
+
+    - title: Тестирование предположений
+      url: /test-assumptions.html
+      output: web, pdf
+
+    - title: Практическое занятие "Тестирование документации проекта"
+      url: /test-documentation.html
+      output: web, pdf
+
+
   - title: Концептуальные разделы
     output: web, pdf
     folderitems:
