@@ -1,12 +1,15 @@
-# Руководство OpenAPI Шаг 2: Объект `info`
+---
+title: Руководство OpenAPI Шаг 2 Объект "info"
+last_updated: Oct 9, 2019
+sidebar: mydoc_sidebar
+permalink: step2-info-object.html
+folder: openapi-specification
+---
 
-| [*Шаг 1: объект* `openapi`](step1-openapi-object.md) | --> | [**Шаг 2: объект** `info`](step2-info-object.md) | --> | [*Шаг 3: объект* `servers`](step3-servers-object.md) | --> | [*Шаг 4: объект* `paths`](step4-paths-object.md) | --> | [*Шаг 5: объект* `components`](step5-components-object.md) | --> | [*Шаг 6: объект* `security`](step6-security-object.md) | --> | [*Шаг 7: объект* `tags`](step7-tags-object.md) | --> | [*Шаг 8: объект* `externalDocs`](step8-externalDocs-object.md) |
+
+| [*Шаг 1: объект* `openapi`](step1-openapi-object.html) | > | [**Шаг 2: объект** `info`](step2-info-object.html) | > | [*Шаг 3: объект* `servers`](step3-servers-object.html) | > | [*Шаг 4: объект* `paths`](step4-paths-object.html) | > | [*Шаг 5: объект* `components`](step5-components-object.html) | > | [*Шаг 6: объект* `security`](step6-security-object.html) | > | [*Шаг 7: объект* `tags`](step7-tags-object.html) | > | [*Шаг 8: объект* `externalDocs`](step8-externalDocs-object.html) |
 
 Объект `info` содержит основную информацию о вашем API, включая заголовок, описание, версию, ссылку на лицензию, ссылку на условия обслуживания и контактную информацию. Многие из свойств являются необязательными.
-
-[Пример объекта `info`](#sample)
-
-[Отображение в Swagger UI](#appearance)
 
 <a name="sample"></a>
 ## Пример объекта `info`
@@ -40,10 +43,10 @@ info:
 
 Информация в Swagger UI будет отображаться следующим образом:
 
-![info](img/6.png)
+{% include image.html file="openapi-specification/6.png" alt="info" %}
 
 В `description`, в дополнение к описанию общего API, можно предоставить пользователям несколько основных инструкций по использованию Swagger UI. Если есть тестовая учетная запись, которую они должны использовать, можно предоставить им необходимую информацию в этом поле.
 
-[🔙](step1-openapi-object.md)
+[🔙](step1-openapi-object.html)
 
-[Go next ➡](step3-servers-object.md)
+[Go next ➡](step3-servers-object.html)
