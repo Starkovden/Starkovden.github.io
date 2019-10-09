@@ -2,7 +2,7 @@
 title: Руководство OpenAPI Шаг 4 Объект "paths"
 last_updated: Oct 9, 2019
 sidebar: mydoc_sidebar
-permalink: step3-servers-object.html
+permalink: step4-paths-object.html
 folder: openapi-specification
 ---
 
