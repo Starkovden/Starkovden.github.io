@@ -1,24 +1,19 @@
-# 👨‍💻 Практическое занятие: Что не так в разделе API?
+---
+title: 👨‍💻 Практическое занятие: Что не так в разделе API?
+last_updated: Oct 9, 2019
+sidebar: mydoc_sidebar
+permalink: whats-wrong.html
+folder: documenting-api-endpoints
+---
 
 На этом занятии попробуем раскритиковать справочный раздел API чтоб понять, что там не так.
-
-[Что не так с разделом API?](#wrong)
-
-[Surfreport](#surfreport)
-
-- [Конечные точки](#endpoints)
-- [Параметры](#parameters)
-- [Пример запроса](#request)
-- [Пример ответа](#response)
-- [Определения ответа](#definitions)
-- [Ответы](#answeres)
 
 <a name="wrong"></a>
 ## Что не так с разделом API?
 
 Ниже приведен пример справочной темы по API для конечной точки, которая называется `surfreport`. Там есть примерно 25 ошибок. Копия документации доступна в [Google Docs](https://docs.google.com/document/d/1LU0QJTDHHKFu9FIC24ZrF1I5HC7mzX86fH0YZ1SUHyo/edit) только для чтения. В Google Docs можно перейти в **File> Make a Copy**, чтобы создать свой собственный экземпляр. Затем прокомментировать все ошибки в файле Google Docs.
 
-![surfreport](pics/38.png)
+{% include image.html file="documenting-api-endpoints/38.png" alt="surfreport" %}
 
 <a name="surfreport"></a>
 ## Surfreport
@@ -104,8 +99,8 @@ https://api.openweathermap.org/data/2.5/surfreport/12345?zip=95050&appid=fd4698c
 <a name="answeres"></a>
 ### Ответы
 
-Посмотреть ошибки можно в разделе [Описание ошибок](../glossary-and-resourses/answeres-whats-wrong.md)
+Посмотреть ошибки можно в разделе [Описание ошибок](answeres-whats-wrong.html)
 
-[🔙](putt-all-together.md)
+[🔙](putt-all-together.html)
 
-[Go next ➡](find-open-source-project.md)
+[Go next ➡](find-open-source-project.html)
