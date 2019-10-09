@@ -1,5 +1,5 @@
 ---
-title: О модуле "Использование API в роли разработчика"
+title: Содержание модуля "Использование API в роли разработчика"
 last_updated: Oct 8, 2019
 sidebar: mydoc_sidebar
 permalink: about-second-module.html
