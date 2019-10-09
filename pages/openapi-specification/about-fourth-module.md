@@ -1,5 +1,5 @@
 ---
-title: Содержание модуле "Спецификация OpenAPI и Swagger"
+title: Содержание модуля "Спецификация OpenAPI и Swagger"
 last_updated: Oct 9, 2019
 sidebar: mydoc_sidebar
 permalink: about-fourth-module.html
