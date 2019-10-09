@@ -1,5 +1,5 @@
 ---
-title: О модуле "Введение в REST API"
+title: Содержание модуля "Введение в REST API"
 last_updated: Oct 8, 2019
 sidebar: mydoc_sidebar
 permalink: about-first-module.html
