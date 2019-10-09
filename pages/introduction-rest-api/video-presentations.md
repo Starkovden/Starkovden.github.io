@@ -14,12 +14,12 @@ folder: introduction-rest-api
 Записи семинара по API документации в Менло-Парке, штат Калифорния, 8 ноября 2018 года. (Более подробную информацию см. [В этом сообщении в блоге](https://idratherbewriting.com/2018/10/31/upcoming-api-doc-workshop/).) Эта запись тесно связана с последним содержанием и упражнениями в этом курсе. Семинар разделен на пять видео.
 
 <a name="video1"></a>
-{% include image.html file="introduction-rest-api/31.jpg" alt="Видео 1" caption="Видео 1" %}
+{% include image.html file="introduction-rest-api/31.jpg" url="https://youtu.be/X1u453Gtw9g" alt="Видео 1" caption="Видео 1" %}
 
 
 
 <a name="video2"></a>
-{% include image.html file="introduction-rest-api/32.jpg" alt="Видео 2" caption="Видео 2" %}
+{% include image.html file="introduction-rest-api/32.jpg" url="https://youtu.be/FuZfob2eVb4" alt="Видео 2" caption="Видео 2" %}
 
 
 <a name="video3"></a>
