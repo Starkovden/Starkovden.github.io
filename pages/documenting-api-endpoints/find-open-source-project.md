@@ -1,5 +1,5 @@
 ---
-title: 👨‍💻 Практическое занятие "Поиск open-source проекта"
+title: Практическое занятие "Поиск open-source проекта"
 last_updated: Oct 9, 2019
 sidebar: mydoc_sidebar
 permalink: find-open-source-project.html
