@@ -1,5 +1,5 @@
 ---
-title:  Шаг 4 "ример запроса (Описание API)"
+title:  Шаг 4 "Пример запроса (Описание API)"
 last_updated: Oct 9, 2019
 sidebar: mydoc_sidebar
 permalink: step4-request-example.html
