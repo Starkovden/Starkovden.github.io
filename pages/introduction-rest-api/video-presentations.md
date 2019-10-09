@@ -23,17 +23,17 @@ folder: introduction-rest-api
 
 
 <a name="video3"></a>
-{% include image.html file="introduction-rest-api/33.jpg" alt="Видео 3" caption="Видео 3" %}
+{% include image.html file="introduction-rest-api/33.jpg" url="https://youtu.be/GgA8772arys" alt="Видео 3" caption="Видео 3" %}
 
 <a name="video4"></a>
-{% include image.html file="introduction-rest-api/34.jpg" alt="Видео 4" caption="Видео 5" %}
+{% include image.html file="introduction-rest-api/34.jpg" url="https://youtu.be/mLnea0LLTh4" alt="Видео 4" caption="Видео 5" %}
 
 <a name="video5"></a>
-{% include image.html file="introduction-rest-api/35.jpg" alt="Видео 4" caption="Видео 4" %}
+{% include image.html file="introduction-rest-api/35.jpg" url="https://youtu.be/9mSqxqV7TXY" alt="Видео 4" caption="Видео 4" %}
 
 Ниже основные моменты всех семинаров собраны в часовое видео:
 
-{% include image.html file="introduction-rest-api/30.jpg" alt="full video" caption="Полная версия" %}
+{% include image.html file="introduction-rest-api/30.jpg" url="https://youtu.be/5pzhtrrtkXY" alt="full video" caption="Полная версия" %}
 
 Если предпочитаете слушать записи, то ниже ссылки на аудио записи семинаров
 
@@ -58,13 +58,13 @@ folder: introduction-rest-api
 
 <a name="part1"></a>
 
-{% include image.html file="introduction-rest-api/36.jpg" alt="Часть 1" caption="Часть 1" %}
+{% include image.html file="introduction-rest-api/36.jpg" url="https://youtu.be/Ivum3YbOWQ4" alt="Часть 1" caption="Часть 1" %}
 
 <a name="part2"></a>
-{% include image.html file="introduction-rest-api/37.jpg" alt="Часть 2" caption="Часть 2" %}
+{% include image.html file="introduction-rest-api/37.jpg" url="https://youtu.be/zV6m-6_j56w" alt="Часть 2" caption="Часть 2" %}
 
 <a name="part3"></a>
-{% include image.html file="introduction-rest-api/38.jpg" alt="Часть 3" caption="Часть 3" %}
+{% include image.html file="introduction-rest-api/38.jpg" url="https://youtu.be/LSLg6Oy1OzM" alt="Часть 3" caption="Часть 3" %}
 
 <a name="audio2"></a>
 ### Аудио записи семинара
