@@ -6,7 +6,7 @@ permalink: step1-openapi-object.html
 folder: openapi-specification
 ---
 
-| [**Шаг 1: объект** `openapi`](step1-openapi-object.md) | > | [*Шаг 2: объект* `info`](step2-info-object.md) | > | [*Шаг 3: объект* `servers`](step3-servers-object.md) | > | [*Шаг 4: объект* `paths`](step4-paths-object.md) | > | [*Шаг 5: объект* `components`](step5-components-object.md) | > | [*Шаг 6: объект* `security`](step6-security-object.md) | > | [*Шаг 7: объект* `tags`](step7-tags-object.md) | > | [*Шаг 8: объект* `externalDocs`](step8-externalDocs-object.md) |
+| [**Шаг 1: объект** `openapi`](step1-openapi-object.html) | > | [*Шаг 2: объект* `info`](step2-info-object.html) | > | [*Шаг 3: объект* `servers`](step3-servers-object.html) | > | [*Шаг 4: объект* `paths`](step4-paths-object.html) | > | [*Шаг 5: объект* `components`](step5-components-object.html) | > | [*Шаг 6: объект* `security`](step6-security-object.html) | > | [*Шаг 7: объект* `tags`](step7-tags-object.html) | > | [*Шаг 8: объект* `externalDocs`](step8-externalDocs-object.html) |
 
 <a name="overview"></a>
 ## Обзор руководства OpenAPI
