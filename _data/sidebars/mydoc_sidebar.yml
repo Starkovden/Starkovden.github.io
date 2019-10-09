@@ -285,6 +285,58 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: О модуле
+      url: /about-sixth-module.html
+      output: web, pdf
+
+    - title: Разделы руководства пользователя
+      url: /user-guide-topics.html
+      output: web, pdf
+
+    - title: Обзор API
+      url: /API-overview.html
+      output: web, pdf
+
+    - title: Руководство по началу работы с API
+      url: /getting-started.html
+      output: web, pdf
+
+    - title: Требования аутентификации и авторизации API
+      url: /authentication-and-authorization.html
+      output: web, pdf
+
+    - title: Коды ошибок и статусы
+      url: /status-error-codes.html
+      output: web, pdf
+
+    - title: Ограничения скорости
+      url: /rate-limiting.html
+      output: web, pdf
+
+    - title: Описание и образцы кода
+      url: /code-samples.html
+      output: web, pdf
+
+    - title: SDK и пример приложений
+      url: /sdks-sample-apps.html
+      output: web, pdf
+
+    - title: Краткое справочное руководство
+      url: /quick-reference-guide.html
+      output: web, pdf
+
+    - title: API Глоссарий
+      url: /api-glossary.html
+      output: web, pdf
+
+    - title: Лучшие практики (Best practices) API
+      url: /best-practices.html
+      output: web, pdf
+
+    - title: Практическое занятие "Оценка концептуального контента в проекте"
+      url: /assess-conceptual-content.html
+      output: web, pdf
+
   - title: Публикация документации
     output: web, pdf
     folderitems:
