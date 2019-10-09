@@ -87,3 +87,18 @@ permalink: index.html
     - [**Самостоятельное тестирование всех инструкций**](test-instructions-yourself.html)
     - [**Тестирование предположений**](test-assumptions.html)
     - [**Практическое занятие: Тестирование документации проекта**](test-documentation.html)
+
+6. [**Концептуальные разделы**](about-sixth-module.html)
+
+    - [**Разделы руководства пользователя**](user-guide-topics.html)
+    - [**Обзор API**](API-overview.html)
+    - [**Руководство по началу работы**](getting-started.html)
+    - [**Требования аутентификации и авторизации**](authentication-and-authorization.html)
+    - [**Коды статусов и ошибок**](status-error-codes.html)
+    - [**Ограничения скорости**](rate-limiting.html)
+    - [**Описание и образцы кода**](code-samples.html)
+    - [**SDK и пример приложений**](sdks-sample-apps.html)
+    - [**Краткое справочное руководство**](quick-reference-guide.html)
+    - [**API Глоссарий**](api-glossary.html)
+    - [**Лучшие практики API**](best-practices.html)
+    - [**Практическое занятие: Оценка концептуального контента в проекте**](assess-conceptual-content.html)
