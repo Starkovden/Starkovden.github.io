@@ -1,5 +1,5 @@
 ---
-title: О модуле "Документирование конечных точек"
+title: Содержание модуля "Документирование конечных точек"
 last_updated: Oct 8, 2019
 sidebar: mydoc_sidebar
 permalink: about-third-module.html
