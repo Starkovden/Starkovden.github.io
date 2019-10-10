@@ -3,7 +3,7 @@ title: О модуле "Глоссарий API и источники"
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
 permalink: about-tenth-module.html
-folder: native-library
+folder: glossary-and-resourses
 ---
 
 Документация по API полна жаргонов, сокращений и множества новых терминов.
