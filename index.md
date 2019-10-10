@@ -120,3 +120,38 @@ permalink: index.html
     - [**Рекомендации - какой инструмент документирования выбирать**](Which-tool-choose.html)
     - [**Непрерывное развертывание Jekyll и CloudCannon**](Jekyll-and-cloudCannon.html)
     - [**Кейс для изучения: Переход на Docs-as-code**](Switching-tools.html)
+
+8. [**Работа технического писателя**](about-eigth-module.html)
+
+    - [**Рынок труда технического писателя**](job-market.html)
+    - [**Необходимое количество кода, которое нужно знать**](how-much-code-to-know.html)
+    - [**Лучшие локации для работы**](best-locations.html)
+
+9. [**Нативные библиотеки API**](about-ninth-module.html)
+
+    - [**Обзор нативных библиотек API**](Overview-of-library.html)
+    - [**Получаем пример Java проекта**](Get-the-sample-Java-project.html)
+    - [**Java Ускоренный курс**](Java-crash-course.html)
+    - [**Практическое занятие: Генерация Javadoc из примера проекта**](Activity-Generate-Javadoc.html)
+    - [**Теги Javadoc**](Javadoc-tags.html)
+    - [**Изучение вывода Javadoc**](Explore-Javadoc-output.html)
+    - [**Редактирование тегов Javadoc**](Make-edits-Javadocs-tags.html)
+    - [**Doxygen, генератор документации для С++**](Doxygen.html)
+    - [**Создание концептуальной документации при помощи исходных библиотек API**](Create-non-refsdocs-with-native-library-APIs.html)
+
+10. [**Глоссарий API и источники**](about-tenth-module.html)
+
+    - [**Глоссарий API документации**](Glossary-for-API-documentation.html)
+    - [**Практические занятия REST API**](RESTAPI-activities.html)
+    - [**Практическое занятие: Получить информацию о событии, используя API сервиса Eventbrite**](Get-event-information-using-Eventbrite-API.html)
+    - [**Практическое занятие: Извлечь галерею, используя API сервиса Flikr**](Retrieve-gallery-using-Flickr-API.html)
+    - [**Практическое занятие: Получить скорость ветра, используя API сервиса Aeris Weather**](Get-wind-speed-using-Aeris-API.html)
+    - [**Справочник RAML**](RAML-tutorial.html)
+    - [**Справочник API Blueprint**](API-Blueprint-tutorial.html)
+    - [**Описание ошибок**](answeres-whats-wrong.html)
+
+11. [**Документирование кода**](about-eleventh-module.html)
+
+    - [**Почему документирование кода так сложно?**](doc-code.html)
+    - [**Исследования о документировании кода**](doc-research.html)
+    - [**Пять стратегий документирования кода**](doc-strategy.html)
