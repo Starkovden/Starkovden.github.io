@@ -3,7 +3,7 @@ title: Работа технического писателя
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
 permalink: about-eigth-module.html
-folder: pgetting-job
+folder: getting-job
 ---
 
 Чтобы получить работу, имеющую отношение к документации API, нужно продемонстрировать портфолио и технические способности .
