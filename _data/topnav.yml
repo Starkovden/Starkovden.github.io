@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/docops-hq/learnapidoc-ru
+      external_url: https://github.com/Starkovden/Starkovden.github.io
     - title: Original course
       external_url: https://idratherbewriting.com/learnapidoc/
 
