@@ -341,6 +341,70 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: О модуле
+      url: /about-seventh-module.html
+      output: web, pdf
+
+    - title: Варианты публикации документации
+      url: /Overview-for-publishing.html
+      output: web, pdf
+
+    - title: Список из 100 сайтов с API документацией
+      url: /API-doc-sites-list.html
+      output: web, pdf
+
+    - title: Шаблоны проектирования сайтов API документации
+      url: /Design-patterns.html
+      output: web, pdf
+
+    - title: Инструменты подхода Docs-as-code
+      url: /Doc-as-code-tools.html
+      output: web, pdf
+
+    - title: Подробнее о Markdown
+      url: /More-about-Markdown.html
+      output: web, pdf
+
+    - title: Система контроля версий (пример Git)
+      url: /Version-control-system.html
+      output: web, pdf
+
+    - title: Практическое занятие "Управляем контентом в Wiki Github"
+      url: /Manage-wiki-content.html
+      output: web, pdf
+
+    - title: Практическое занятие "Используем клиент GitHub для десктопа"
+      url: /Use-GitHub-Desktop.html
+      output: web, pdf
+
+    - title: Практическое занятие "процесс Pull request на GitHub"
+      url: /Pull-request-workflows.html
+      output: web, pdf
+
+    - title: Генераторы статичных сайтов
+      url: /Static-site-generators.html
+      output: web, pdf
+
+    - title: Варианты хостинга и развертывания
+      url: /Hosting-and-deployment-options.html
+      output: web, pdf
+
+    - title: Возможности автономных CMS (и Readme.io)
+      url: /Headless-cms-options.html
+      output: web, pdf
+
+    - title: Рекомендации выбора инструментов документирования
+      url: /Which-tool-choose.html
+      output: web, pdf
+
+    - title: Непрерывное развертывание Jekyll и CloudCannon
+      url: /Jekyll-and-cloudCannon.html
+      output: web, pdf
+
+    - title: Кейс для изучения "Переход на Docs-as-code"
+      url: /Switching-tools.html
+      output: web, pdf
+
   - title: Работа технического писателя
     output: web, pdf
     folderitems:
