@@ -409,6 +409,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Работа технического писателя
+      url: /about-eigth-module.html
+      output: web, pdf
+
     - title: Рынок вакансий для технического писателя
       url: /job-market.html
       output: web, pdf
