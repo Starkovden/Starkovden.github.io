@@ -429,6 +429,46 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: О модуле
+      url: /about-ninth-module.html
+      output: web, pdf
+
+    - title: Обзор нативных библиотек API
+      url: /Overview-of-library.html
+      output: web, pdf
+
+    - title: Получаем пример Java проекта
+      url: /Get-the-sample-Java-project.html
+      output: web, pdf
+
+    - title: Ускоренный курс Java
+      url: /Java-crash-course.html
+      output: web, pdf
+
+    - title: Практическое занятие "Генерация Javadoc из примера проекта"
+      url: /Activity-Generate-Javadoc.html
+      output: web, pdf
+
+    - title: Тэги Javadoc
+      url: /Javadoc-tags.html
+      output: web, pdf
+
+    - title: Изучение вывода Javadoc
+      url: /Explore-Javadoc-output.html
+      output: web, pdf
+
+    - title: Редактирование тэгов Javadoc
+      url: /Make-edits-Javadocs-tags.html
+      output: web, pdf
+
+    - title: Doxygen, генератор документации в основном для С++
+      url: /Doxygen.html
+      output: web, pdf
+
+    - title: Создание концептуальной документации при помощи исходных библиотек API
+      url: /create-non-refsdocs-with-native-library-apis.html
+      output: web, pdf
+
   - title: Глоссарий API и источники
     output: web, pdf
     folderitems:
