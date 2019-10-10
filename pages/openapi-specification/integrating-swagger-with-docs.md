@@ -63,7 +63,7 @@ folder: openapi-specification
 - перешел в [Swagger UI](https://github.com/swagger-api/swagger-ui) сохранил себе на ПК папку `dist`;
 - из папки `dist` извлек файл `swagger-ui.css` и поместил его в папку `css` проекта;
 - из папки `dist` извлек файлы `swagger-ui-bundle.js` и `swagger-ui-standalone-preset.js` и вставил их в папку `js` проекта;
-- в `pages/openapi-specification` где лежат исходники модуля "Спецификация OpenAPI и Swagger" добавил файл `openapi-weathermap.yml` вот с [этим кодом](openapi-weathermap.yml);
+- в `pages/openapi-specification` где лежат исходники модуля "Спецификация OpenAPI и Swagger" добавил файл `openapi-weathermap.yml` вот с [этим кодом](https://idratherbewriting.com/learnapidoc/docs/rest_api_specifications/openapi_openweathermap.yml);
 - в файле `swagger-ui-demo.md` вставил код из оригинала курса:
 
 ```html
