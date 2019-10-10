@@ -1,5 +1,5 @@
 ---
-title: Кейс по переходу на Docs-as-code для изучения
+title: Кейс по переходу на Docs-as-code
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
 permalink: Switching-tools.html
