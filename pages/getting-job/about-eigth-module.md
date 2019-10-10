@@ -21,3 +21,7 @@ folder: getting-job
 [**Необходимое количество кода, которое нужно знать**](how-much-code-to-know.html)
 
 [**Лучшие локации для работы**](best-locations.html)
+
+[🔙](Switching-tools.html)
+
+[Go next ➡](job-market.html)
