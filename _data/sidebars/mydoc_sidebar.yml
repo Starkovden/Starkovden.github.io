@@ -473,6 +473,42 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: О модуле
+      url: /about-tenth-module.html
+      output: web, pdf
+
+    - title: Глоссарий
+      url: /Glossary-for-API-documentation.html
+      output: web, pdf
+
+    - title: Практические занятия REST API
+      url: /RESTAPI-activities.html
+      output: web, pdf
+
+    - title: Практическое занятие "Получаем информацию о событии, используя API сервиса Eventbrite"
+      url: /Get-event-information-using-Eventbrite-API.html
+      output: web, pdf
+
+    - title: Практическое занятие "Извлекаем галерею, используя API сервиса Flickr"
+      url: /Retrieve-gallery-using-Flickr-API.html
+      output: web, pdf
+
+    - title: Практическое занятие "Получаем скорость ветра, используя API сервиса Aeris Weather"
+      url: /Get-wind-speed-using-Aeris-API.html
+      output: web, pdf
+
+    - title: Справочник RAML
+      url: /RAML-tutorial.html
+      output: web, pdf
+
+    - title: Справочник API Blueprint
+      url: /API-Blueprint-tutorial.html
+      output: web, pdf
+
+    - title: Описание ошибок
+      url: /answeres-whats-wrong.html
+      output: web, pdf
+
   - title: Документирование кода
     output: web, pdf
     folderitems:
