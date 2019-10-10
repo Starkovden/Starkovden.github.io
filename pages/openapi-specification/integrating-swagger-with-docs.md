@@ -326,9 +326,7 @@ button.btn.try-out__btn {
 {% include random_ad2.html %}
 ```
 
-
-- изменил ссылки к файлам `swagger-ui.css`, `swagger-ui-bundle.js` и `swagger-ui-standalone-preset.js`
-- изменил ссылку в тексте к своему `openapi_weathermap.yml`;
+- изменил ссылки к файлам `swagger-ui.css`, `swagger-ui-bundle.js`, `swagger-ui-standalone-preset.js` и `openapi_weathermap.yml` (в примере кода ссылки уже изменены);
 - НИЧЕГО НЕ ПОЛУЧИЛОСЬ!;
 - посмотрел логи сборки jekyll, вычитал, что в `_includes` он не видит файлы `random_ad.html` и `random_ad2.html`;
 - скопировал их из оригинала курса в свою папку `_includes`;
