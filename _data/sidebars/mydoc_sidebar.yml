@@ -409,6 +409,18 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Рынок вакансий для технического писателя
+      url: /job-market.html
+      output: web, pdf
+
+    - title: Сколько кода нужно знать?
+      url: /how-much-code-to-know.html
+      output: web, pdf
+
+    - title: Лучшие локации для работы
+      url: /best-locations.html
+      output: web, pdf
+
   - title: Нативные библиотеки API
     output: web, pdf
     folderitems:
