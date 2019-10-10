@@ -1,4 +1,4 @@
-repository: docops-hq/learnapidoc-ru
+repository: Starkovden/Starkovden.github.io
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
