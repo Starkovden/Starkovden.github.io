@@ -3,7 +3,7 @@ title: Глоссарий
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
 permalink: Glossary-for-API-documentation.html
-folder: native-library
+folder: glossary-and-resourses
 ---
 
 <a name="A"></a>
