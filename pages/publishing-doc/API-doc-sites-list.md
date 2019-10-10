@@ -54,7 +54,6 @@ folder: publishing-doc
 39. [Rhapsody API docs](https://developer.rhapsody.com/)
 40. [Donors Choose docs](http://data.donorschoose.org/docs/overview/)
 41. [Sendgrid API docs](https://sendgrid.com/docs/index.html)
-42. [Photobucket API docs](https://pic.photobucket.com/dev_help/WebHelpPublic/PhotobucketPublicHelp_Left.htm#CSHID=FAQ/FAQOverview.htm|StartTopic=Content/FAQ/FAQOverview.htm|SkinName=WebHelp)
 43. [Mailchimp docs](https://developer.mailchimp.com/documentation/mailchimp/?utm_source=apidocs&utm_medium=internal_ad&utm_campaign=api_v3)
 44. [Basecamp API docs](https://github.com/basecamp/bcx-api/)
 45. [Smugmug API docs](https://smugmug.atlassian.net/wiki/spaces/API/overview)
@@ -132,7 +131,7 @@ folder: publishing-doc
 
 Каталог сайтов документации API можно найти на [Programmableweb.com docs](https://www.programmableweb.com/apis/directory). Там можно просматривать тысячи документов по веб-API в различных категориях.
 
-{% include image.html file="publishing*doc/25.png" alt="catalog" %}
+{% include image.html file="publishing-doc/25.png" alt="catalog" %}
 
 На сайте Programmableweb только открытые веб-API, то есть API-интерфейсы, к которым можно получить доступ в Интернете (что также означает, что обычно это REST API). Здесь нет бесчисленных внутренних API-интерфейсов с брандмауэром, которые многие компании предоставляют платным клиентам. Есть еще много тысяч частных API, о которых большинство из нас никогда не узнает.
 
