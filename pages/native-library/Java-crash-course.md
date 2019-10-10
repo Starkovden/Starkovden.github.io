@@ -2,7 +2,7 @@
 title: Ускоренный курс Java
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
-permalink: Get-the-sample-Java-project.html
+permalink: Java-crash-course.html
 folder: native-library
 ---
 
