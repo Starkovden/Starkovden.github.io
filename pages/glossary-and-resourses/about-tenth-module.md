@@ -1,4 +1,10 @@
-# Глоссарий API и источники
+---
+title: О модуле "Глоссарий API и источники"
+last_updated: Oct 10, 2019
+sidebar: mydoc_sidebar
+permalink: about-tenth-module.html
+folder: native-library
+---
 
 Документация по API полна жаргонов, сокращений и множества новых терминов.
 
@@ -8,18 +14,22 @@
 
 # Содержание модуля "Глоссарий API и источники"
 
-[**Глоссарий API документации**](Glossary-for-API-documentation.md)
+[**Глоссарий API документации**](Glossary-for-API-documentation.html)
 
-[**Практические занятия REST API**](RESTAPI-activities.md)
+[**Практические занятия REST API**](RESTAPI-activities.html)
 
-[**Практическое занятие: Получить информацию о событии, используя API сервиса Eventbrite**](Get-event-information-using-Eventbrite-API.md)
+[**Практическое занятие: Получить информацию о событии, используя API сервиса Eventbrite**](Get-event-information-using-Eventbrite-API.html)
 
-[**Практическое занятие: Извлечь галерею, используя API сервиса Flickr**](Retrieve-gallery-using-Flickr-API.md)
+[**Практическое занятие: Извлечь галерею, используя API сервиса Flickr**](Retrieve-gallery-using-Flickr-API.html)
 
-[**Практическое занятие: Получить скорость ветра, используя API сервиса Aeris Weather**](Get-wind-speed-using-Aeris-API.md)
+[**Практическое занятие: Получить скорость ветра, используя API сервиса Aeris Weather**](Get-wind-speed-using-Aeris-API.html)
 
-[**Справочник RAML**](RAML-tutorial.md)
+[**Справочник RAML**](RAML-tutorial.html)
 
-[**Справочник API Blueprint**](API-Blueprint-tutorial.md)
+[**Справочник API Blueprint**](API-Blueprint-tutorial.html)
 
-[**Описание ошибок**](answeres-whats-wrong.md)
+[**Описание ошибок**](answeres-whats-wrong.html)
+
+[🔙](create-non-refsdocs-with-native-library-apis.html)
+
+[Go next ➡](Glossary-for-API-documentation.html)
