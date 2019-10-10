@@ -38,12 +38,12 @@ endpoint: /surfreport
 
 После чего можно использовать [цикл for](https://help.shopify.com/en/themes/liquid/objects/for-loops) для циклического перебора каждого из элементов и вставки их в шаблон:
 
-```html
-{% for p in site.endpoints %}
+```
+{% raw %}{% for p in site.endpoints %}
 <div class="resName">{{p.resource_name}}</div>
 <div class="resDesc">{{p.resource_description}}</div>
 <div class="endpointDef">{{p.endpoint}}</div>
-{% endfor %}
+{% endfor %}{% endraw %}
 ```
 
 Такой подход позволяет легко менять шаблон без переформатирования всех страниц. Если нужно будет изменить порядок элементов на странице, или добавить новые классы или другое значение, просто меняется шаблон. Значения остаются неизменными, так как они могут быть обработаны в любом порядке.
