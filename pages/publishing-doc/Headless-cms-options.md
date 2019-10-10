@@ -69,8 +69,6 @@ Readme.io делает акцент на предоставлении интер
 - [Coinbase API](https://developers.coinbase.com/api/v2#introduction)
 - [Farmbase Software](https://software.farm.bot/docs)
 
-====================
-
 [🔙](Hosting-and-deployment-options.html)
 
 [Go next ➡](Which-tool-choose.html)
