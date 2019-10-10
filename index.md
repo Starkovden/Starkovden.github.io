@@ -143,9 +143,9 @@ permalink: index.html
 
     - [**Глоссарий API документации**](Glossary-for-API-documentation.html)
     - [**Практические занятия REST API**](RESTAPI-activities.html)
-    - [**Практическое занятие: Получить информацию о событии, используя API сервиса Eventbrite**](Get-event-information-using-Eventbrite-API.html)
-    - [**Практическое занятие: Извлечь галерею, используя API сервиса Flikr**](Retrieve-gallery-using-Flickr-API.html)
-    - [**Практическое занятие: Получить скорость ветра, используя API сервиса Aeris Weather**](Get-wind-speed-using-Aeris-API.html)
+    - [**Практическое занятие: Получаем информацию о событии, используя API сервиса Eventbrite**](Get-event-information-using-Eventbrite-API.html)
+    - [**Практическое занятие: Извлекаем галерею, используя API сервиса Flikr**](Retrieve-gallery-using-Flickr-API.html)
+    - [**Практическое занятие: Получаем скорость ветра, используя API сервиса Aeris Weather**](Get-wind-speed-using-Aeris-API.html)
     - [**Справочник RAML**](RAML-tutorial.html)
     - [**Справочник API Blueprint**](API-Blueprint-tutorial.html)
     - [**Описание ошибок**](answeres-whats-wrong.html)
