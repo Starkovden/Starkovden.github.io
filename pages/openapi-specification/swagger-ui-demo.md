@@ -6,7 +6,7 @@ permalink: swagger-ui-demo.html
 folder: openapi-specification
 ---
 
-При использовании Swagger UI, вывод Swagger UI не обязательно должен быть [автономным сайтом](https://idratherbewriting.com/learnapidoc/assets/files/swagger/). Можно встроить Swagger в существующую веб-страницу. Ниже приведен встроенный экземпляр [Swagger UI](https://github.com/swagger-api/swagger-ui), показывающий файл [OpenAPI для OpenWeatherMapAPI](openapi_openweathermap.yml).
+При использовании Swagger UI, вывод Swagger UI не обязательно должен быть [автономным сайтом](https://idratherbewriting.com/learnapidoc/assets/files/swagger/). Можно встроить Swagger в существующую веб-страницу. Ниже приведен встроенный экземпляр [Swagger UI](https://github.com/swagger-api/swagger-ui), показывающий файл [OpenAPI для OpenWeatherMapAPI](openapi_weathermap.yml).
 
 Дисплей пользовательского интерфейса Swagger спроектирован так, чтобы быть отзывчивым, однако  сворачиваемые разделы в модели по-прежнему имеют недостатки переполнения в представлениях, поэтому при встраивании можно столкнуться с некоторыми проблемами.
 
@@ -76,7 +76,7 @@ folder: openapi-specification
 window.onload = function() {
   // Build a system
   const ui = SwaggerUIBundle({
-    url: "pages/openapi_specification/openapi_weathermap.yml",
+    url: "pages/openapi-specification/openapi_weathermap.yml",
     // url: "http://petstore.swagger.io/v2/swagger.json",
     dom_id: '#swagger-ui',
     defaultModelsExpandDepth: -1,
@@ -265,7 +265,6 @@ button.btn.try-out__btn {
 
 {% include random_ad.html %}
 
-<p>Personally, I prefer to separate Swagger UI from the rest of my docs simply because I dislike the sense of a website within a website. Developers can keep the Swagger UI page open as a <a href="docapis_doc_quick_reference.html">quick reference</a> while they work on their projects. I view the Swagger UI reference output similar to the standalone output of <a href="nativelibraryapis_exploring_javadoc_output.html">Javadoc</a>.</p>
 
 {% include random_ad2.html %}
 
