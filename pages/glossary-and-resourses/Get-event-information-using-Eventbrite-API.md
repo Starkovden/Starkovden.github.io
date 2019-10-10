@@ -1,5 +1,5 @@
 ---
-title: Практические занятия "Получаем информацию о событии, используя API сервиса Eventbrite"
+title: Практическое занятие "Получаем информацию о событии, используя API сервиса Eventbrite"
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
 permalink: Get-event-information-using-Eventbrite-API.html
