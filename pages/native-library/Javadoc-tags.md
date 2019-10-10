@@ -2,7 +2,7 @@
 title: Тэги Javadoc
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
-permalink: Activity-Generate-Javadoc.html
+permalink: Javadoc-tags.html
 folder: native-library
 ---
 
