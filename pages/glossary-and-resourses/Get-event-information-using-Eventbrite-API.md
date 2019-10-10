@@ -2,7 +2,7 @@
 title: Практические занятия "Получаем информацию о событии, используя API сервиса Eventbrite"
 last_updated: Oct 10, 2019
 sidebar: mydoc_sidebar
-permalink: RESTAPI-activities.html
+permalink: Get-event-information-using-Eventbrite-API.html
 folder: glossary-and-resourses
 ---
 
