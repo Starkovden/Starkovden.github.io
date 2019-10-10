@@ -79,7 +79,6 @@ Read the Docs представляет темы, характерные для �
 
 [В документации Read the Docs](https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html) есть пример вывода.
 
-![Read the Docs](pics/50.png)
 {% include image.html file="publishing-doc/50.png" alt="Read the Docs" %}
 
 Некоторые ключевые функции платформы:
