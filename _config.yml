@@ -113,3 +113,9 @@ description: "Курс по документированию API. Вольный
 # needed for sitemap.xml file only
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
+
+gems:
+  - jekyll-seo-tag
+
+image:
+  path: images/company_logo.png    
