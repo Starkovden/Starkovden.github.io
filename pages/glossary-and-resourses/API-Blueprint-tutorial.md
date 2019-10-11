@@ -1,19 +1,14 @@
-# Справочник API Blueprint
+---
+title: Справочник API Blueprint
+last_updated: Oct 10, 2019
+sidebar: mydoc_sidebar
+permalink: API-Blueprint-tutorial.html
+folder: glossary-and-resourses
+---
 
 API Blueprint, так же, как и Swagger определяет спецификацию для описания REST API. Инструменты, которые поддерживают API Blueprint, могут читать и отображать информацию.
 
-> Если не используется платформа, которая требует именно  API Blueprint, лучше использовать [спецификацию OpenAPI](../openAPI-specification/openapi-tutorial-overview.md).
-
-[Что такое API Blueprint](#apiblueprint)
-
-[Пример blueprint](#sample)
-
-[Анализ blueprint](#parsing)
-
-[Создаем пример вывода HTML используя API Blueprint и Apiary](#createSample)
-
-- [Создаем проект Apiary](#project)
-- [Взаимодействие с API на Apiary](#interact)
+> Если не используется платформа, которая требует именно  API Blueprint, лучше использовать [спецификацию OpenAPI](openapi-tutorial-overview.html).
 
 <a name="apiblueprint"></a>
 ## Что такое API Blueprint
