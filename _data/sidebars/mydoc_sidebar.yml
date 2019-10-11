@@ -512,3 +512,19 @@ entries:
   - title: Документирование кода
     output: web, pdf
     folderitems:
+
+    - title: О модуле
+      url: /about-eleventh-module.html
+      output: web, pdf
+
+    - title: Почему так трудно документировать код?
+      url: /doc-code.html
+      output: web, pdf
+
+    - title: Исследования о документировании кода
+      url: /doc-research.html
+      output: web, pdf
+
+    - title: Пять стратегий документирования кода
+      url: /doc-strategy.html
+      output: web, pdf
