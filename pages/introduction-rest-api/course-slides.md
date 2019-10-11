@@ -17,8 +17,6 @@ folder: introduction-rest-api
 
 [OpenAPI и Swagger](https://idratherbewriting.com/learnapidoc/slides/openapi_and_swagger.html#/)
 
-[Безадресный контент в документации API](https://idratherbewriting.com/learnapidoc/slides/nonref_content_api_docs.html#/)
-
 [Публикация документации API](https://idratherbewriting.com/learnapidoc/slides/publishing_api_docs.html#/)
 
 [Работа писателя документации API](https://idratherbewriting.com/learnapidoc/slides/getting_job_api_docs.html#/)
