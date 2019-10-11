@@ -3,7 +3,8 @@ title: "Курс по документированию REST API"
 keywords: документирование API, technical writers, технический писатель, курс документирования
 sidebar: mydoc_sidebar
 permalink: index.html
-image: images/company_logo.png
+image: images/seo_image.png
+description: Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc/
 ---
 
 ## Коротко о курсе
