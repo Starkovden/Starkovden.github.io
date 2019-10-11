@@ -114,8 +114,8 @@ description: "Курс по документированию API. Вольный
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
 
-gems:
+plugins:
   - jekyll-seo-tag
 
 image:
-  path: images/company_logo.png    
+  path: images/company_logo.png
