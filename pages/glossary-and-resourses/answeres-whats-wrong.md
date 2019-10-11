@@ -1,19 +1,25 @@
-# Описание ошибок
+---
+title: Описание ошибок
+last_updated: Oct 10, 2019
+sidebar: mydoc_sidebar
+permalink: answeres-whats-wrong.html
+folder: glossary-and-resourses
+---
 
-Здесь разберем ошибки в описании конечной точки Surfreport из [практического занятия: Что не так с разделом API?](../documenting-api-endpoints/whats-wrong.md)
+Здесь разберем ошибки в описании конечной точки Surfreport из [практического занятия: Что не так с разделом API?](whats-wrong.html)
 
-### [Описание ресурса](../documenting-api-endpoints/whats-wrong.md#surfreport)
+### [Описание ресурса](whats-wrong.html#surfreport)
 
 - много слов, описание должно быть более кратким и ориентированным на действия;
 - "Surfreport", в названии не следует использовать заглавные буквы.
 
-### [Конечные точки](../documenting-api-endpoints/whats-wrong.md#endpoints)
+### [Конечные точки](whats-wrong.html#endpoints)
 
 - GET/POST: должен быть только один метод, в этом случае GET;
 - лишнее двоеточие {:beachId};
 - можно выделить цветом {beachId}
 
-### [Параметры](../documenting-api-endpoints/whats-wrong.md#Параметры)
+### [Параметры](whats-wrong.html#Параметры)
 
 - параметры строки запроса перемешаны в одной и той же таблице, что и параметры `Path`. Лучше разделить на разные таблицы;
 - не понятно, где брать ID пляжа;
@@ -21,21 +27,21 @@
 - отсутствует значение параметра `time` по умолчанию;
 - что касается типов данных `time`: почему некоторые типы данных имеют примеры, но не все?
 
-### [Пример запроса](../documenting-api-endpoints/whats-wrong.md#request)
+### [Пример запроса](whats-wrong.html#request)
 
 - пример запроса не в формате curl;
 - показан только один параметр строки запроса, `time` тоже должно быть;
 - включен параметр `zip`, но нигде не определен;
 - `appID` включает длинный ключ API, который, должен быть сокращен до такой переменной, как `APIKEY`.
 
-### [Пример ответа](../documenting-api-endpoints/whats-wrong.md#response)
+### [Пример ответа](whats-wrong.html#response)
 
 - включен `riptide`, но отсутствует его определение в определениях ответа;
 - у `riptide` отсутствует запятая во втором экземпляре;
 - `riptide` не указан в третьем экземпляре;
 - неверное форматирование отступа для `riptide`.
 
-### [Определения ответа](../documenting-api-endpoints/whats-wrong.md#definitions)
+### [Определения ответа](whats-wrong.html#definitions)
 
 - для параметра `wind` не указаны единицы измерения;
 - для параметра `wind` "int" следует указывать как "integer";
