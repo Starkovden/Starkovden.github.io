@@ -112,8 +112,8 @@ sidebars:
 description: "Курс по документированию API. Вольный перевод курса https://idratherbewriting.com/learnapidoc/, составленного Томом Джонсоном, техническим писателем Amazon."
 # the description is used in the feed.xml file
 
-plugins:
-  - jekyll-seo-tag
+#plugins:
+#  - jekyll-seo-tag
 
-image:
-  path: images/company_logo.png
+#image:
+#  path: images/company_logo.png
