@@ -23,3 +23,5 @@
 Курс переводится с оригинала по мере поступления материалов, а также при наличии времени у переводчика.
 
 All pull requests are welcome!
+
+<p align="right"><font color="grey">*Special thanks to <a href="https://www.instagram.com/olyaworkspace/">@Olyaworkspace</a> for the logo*</font></p>
