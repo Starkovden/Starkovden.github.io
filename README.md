@@ -24,4 +24,4 @@
 
 All pull requests are welcome!
 
-<p align="right"><font color="grey">Special thanks to <a href="https://www.instagram.com/olyaworkspace/">@Olyaworkspace</a> for the logo</font></p>
+<p align="right"><i>Special thanks to <a href="https://www.instagram.com/olyaworkspace/">@Olyaworkspace</a> for the logo<i></p>
