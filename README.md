@@ -1,6 +1,8 @@
 # Курс по документированию API | Learapidoc-ru
 
-Репозиторий курса https://Starkovden.github.io
+Сайт курса https://Starkovden.github.io
+
+Сайт создан при помощи генератора статических сайтов Jekyll при использовании темы [Documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll) автора курса Тома Джонсона. 
 
 Исходники перевода курса: https://github.com/docops-hq/learnapidoc-ru
 
