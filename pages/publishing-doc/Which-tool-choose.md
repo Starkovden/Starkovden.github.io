@@ -101,4 +101,4 @@ folder: publishing-doc
 
 [🔙](Headless-cms-options.html)
 
-[Go next ➡](Switching-tools.html)
+[Go next ➡](Jekyll-and-cloudCannon.html)
