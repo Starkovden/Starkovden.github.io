@@ -67,7 +67,7 @@ folder: documenting-api-endpoints
 
 {% include image.html file="documenting-api-endpoints/8.png" alt="linkedIn" %}
 
-{% include tip.html content="Иногда этот метод называют «глаголом». GET, PUT, POST, PATCH и DELETE - это все глаголы." %}
+{% include tip.html content="Иногда этот метод называют глаголом. GET, PUT, POST, PATCH и DELETE - это все глаголы." %}
 
 <a name="endPath"></a>
 ## Конечная точка показывает только конечный путь
