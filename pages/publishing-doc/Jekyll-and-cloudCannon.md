@@ -58,7 +58,7 @@ Configuration file: /Users/tomjoht/projects/learnapidoc/_config.yml
   Server running... press ctrl-c to stop.
   ```
 
-> При использовании редактора Atom, можно использовать терминал, встроенный непосредственно в Atom (например пакет [Terminal Platform IDE](https://atom.io/packages/platformio-ide-terminal)).
+{% include tip.html content="При использовании редактора Atom, можно использовать терминал, встроенный непосредственно в Atom (например пакет [Terminal Platform IDE](https://atom.io/packages/platformio-ide-terminal))." %}
 
 После чего копируется адрес сервера предварительного просмотра (в данном случае http://127.0.0.1:4000/learnapidoc/) и вставляется в браузер. Этот сервер предварительного просмотра постоянно создает ваш сайт при каждом сохранении файла. Удобно использовать просмотр браузера рядом с редактором Atom, чтобы убедиться, что форматирование и изображения выглядят правильно:
 

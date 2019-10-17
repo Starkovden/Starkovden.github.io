@@ -39,7 +39,7 @@ folder: publishing-doc
 
 Источник контента может храниться в GitHub, GitLab или BitBucket. Netlify CMS также интегрируется с Netlify, популярной службой хостинга и развертывания для статических проектов сайтов.
 
-> Руководство по интеграции Jekyll с Netlify в разделе [Adding a CMS to Your Static Site With Netlify CMS](https://dzone.com/articles/adding-a-cms-to-your-static-site-with-netlify-cms). Или просто можно начать с [документации по Netlify CMS](https://www.netlifycms.org/docs/).
+{% include note.html content="Руководство по интеграции Jekyll с Netlify в разделе [Adding a CMS to Your Static Site With Netlify CMS](https://dzone.com/articles/adding-a-cms-to-your-static-site-with-netlify-cms). Или просто можно начать с [документации по Netlify CMS](https://www.netlifycms.org/docs/)." %}
 
 <a name="readme"></a>
 ### Readme.io
