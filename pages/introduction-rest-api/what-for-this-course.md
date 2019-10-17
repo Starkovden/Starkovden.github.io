@@ -18,24 +18,24 @@ folder: introduction-rest-api
 
 После размещения курса документирования API на  сайте в течение нескольких месяцев, отзывы были положительными. Один человек сказал:
 
-> Tom, this course is great. I’m only part way through it, but it already helped me get a job by appearing fluent in APIs during an interview. Thanks for doing this. I can’t imagine how many volunteer hours you’ve put into helping the technical communication community here.
+{% include callout.html content="Tom, this course is great. I’m only part way through it, but it already helped me get a job by appearing fluent in APIs during an interview. Thanks for doing this. I can’t imagine how many volunteer hours you’ve put into helping the technical communication community here." type="primary" %}
 
 Другой комментарий:
 
-> Hi Tom, I went through the whole course. Its highly valuable and I learned a bunch of things that I am already applying to real world documentation projects. … I think for sure the most valuable thing about your course is the clear step by step procedural stuff that gives the reader hands-on examples to follow (its so great to follow a course by an actual tech. writer!)
+{% include callout.html content="Hi Tom, I went through the whole course. Its highly valuable and I learned a bunch of things that I am already applying to real world documentation projects. … I think for sure the most valuable thing about your course is the clear step by step procedural stuff that gives the reader hands-on examples to follow (its so great to follow a course by an actual tech. writer!)" type="primary" %}
 
 И еще один:
 
-> I love this course (I may have already posted that)—it’s the best resource I have come across, explained in terms I understand. I’ve used it as a basis for my style guide and my API documentation….
+{% include callout.html content="I love this course (I may have already posted that)—it’s the best resource I have come across, explained in terms I understand. I’ve used it as a basis for my style guide and my API documentation…." type="primary" %}
 
 Эти комментарии вдохновили автора на дальнейшее добавление к курсу, создание дополнительных учебных пособий, разделов и уточнений. То, что начиналось как простой трех секционный курс, превратилось в более масштабное начинание, и автор стремится превратить контент в полноценную книгу и многонедельный курс. электронные письма от технических писателей продолжают приходить, многие из писателей пытаются перейти к документации для разработчиков. Был и такой отзыв:
 
-> Just an email to thank you for the wonderful API course on your site. I am a long-time tech writer for online help that was recently assigned a task to document a public API. I had no experience in the subject, but had to complete a plan within a single sprint. Luckily I remembered from your blog posts over the years that you had posted material about this.
-Your course on YouTube gave me enough information and understanding to be able to speak intelligently on the subject with developers in a short timeframe, and to dive into tools and publishing solutions.
+{% include callout.html content="Just an email to thank you for the wonderful API course on your site. I am a long-time tech writer for online help that was recently assigned a task to document a public API. I had no experience in the subject, but had to complete a plan within a single sprint. Luckily I remembered from your blog posts over the years that you had posted material about this.
+Your course on YouTube gave me enough information and understanding to be able to speak intelligently on the subject with developers in a short timeframe, and to dive into tools and publishing solutions." type="primary" %}
 
 И такой:
 
-> I am nearly in tears after finding this site! I think I stumbled upon it some time ago, but I must not have been ready for what you have to say. NOW I am ready! As a former technical writer now knowledge manager, I stumbled upon API writing and have learned a lot simply by being curious and observant…
+{% include callout.html content="I am nearly in tears after finding this site! I think I stumbled upon it some time ago, but I must not have been ready for what you have to say. NOW I am ready! As a former technical writer now knowledge manager, I stumbled upon API writing and have learned a lot simply by being curious and observant…" type="primary" %}
 
 Конечно, не все комментарии или электронные письма были положительными. Некоторые люди отмечают проблемы на страницах, такие как неработающие ссылки или неработающий код, неясные области или недостающая информация. По мере возможности, после получения этого отзыва, контент уточняется.
 
