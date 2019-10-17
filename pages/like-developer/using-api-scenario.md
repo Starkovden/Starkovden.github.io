@@ -74,7 +74,7 @@ folder: like-developer
 - в списке конечных точек выберем [`observations`](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/)
 - Просмотрите на тип информации, доступной через эту конечную точку. Предоставляет ли эта конечная точка информацию о ветре и температуре, подходящую для нашего сценария?
 
-> Вот API прогноза погоды Aeris в действии, совершающий в основном те же вызовы, показанные ранее с OpenWeatherMap: {% include image.html file="like-developer/2.jpg" alt="wind-aeris" %}.
+{% include tip.html content="Вот API прогноза погоды Aeris в действии, совершающий в основном те же вызовы, показанные ранее с OpenWeatherMap: {% include image.html file="like-developer/2.jpg" alt="wind-aeris" %}." %}
 
 Для нашего сценария (отображение прогноза погоды на веб-сайте), мы могли бы использовать десятки различных API погоды.
 
