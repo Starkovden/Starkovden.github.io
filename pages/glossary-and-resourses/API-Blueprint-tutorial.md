@@ -458,7 +458,7 @@ Access current weather data for any location on Earth including over 200,000 cit
 + `sunset`: `1435650870` (number, optional) - Sunset time, unix, UTC
 ```
 
-> Если сложно копипастить код, файл с кодом можно загрузить из [источника](https://idratherbewriting.com/learnapidoc/assets/files/apiblueprintweatherdata.md).
+{% include note.html content="Если сложно копипастить код, файл с кодом можно загрузить из [источника](https://idratherbewriting.com/learnapidoc/assets/files/apiblueprintweatherdata.md)." %}
 
 
 - Нажимаем `Save`
