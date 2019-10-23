@@ -30,7 +30,7 @@ folder: glossary-and-resourses
 ```
 http://api.aerisapi.com/observations/santa%20clara,ca?client_id=CLIENT_ID&client_secret=CLIENT_SECRET
 ```
-> В приведенном выше коде нужно будет вставить свой собственный CLIENT_ID и CLIENT_SECRET.
+{% include note.html content="В приведенном выше коде нужно будет вставить свой собственный CLIENT_ID и CLIENT_SECRET." %}
 
 <a name="response"></a>
 ### 3. Анализируем ответ

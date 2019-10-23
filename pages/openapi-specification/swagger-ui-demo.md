@@ -8,7 +8,7 @@ folder: openapi-specification
 
 При использовании Swagger UI, вывод Swagger UI не обязательно должен быть [автономным сайтом](https://idratherbewriting.com/learnapidoc/assets/files/swagger/). Можно встроить Swagger в существующую веб-страницу. Ниже приведен встроенный экземпляр [Swagger UI](https://github.com/swagger-api/swagger-ui), показывающий файл [OpenAPI для OpenWeatherMapAPI](openapi_weathermap.yml).
 
-Дисплей пользовательского интерфейса Swagger спроектирован так, чтобы быть отзывчивым, однако  сворачиваемые разделы в модели по-прежнему имеют недостатки переполнения в представлениях, поэтому при встраивании можно столкнуться с некоторыми проблемами.
+{% include note.html content="Дисплей пользовательского интерфейса Swagger спроектирован так, чтобы быть отзывчивым, однако  сворачиваемые разделы в модели по-прежнему имеют недостатки переполнения в представлениях, поэтому при встраивании можно столкнуться с некоторыми проблемами. За подробной информацией переходим в раздел [Интеграция Swagger с документацией](integrating-swagger-with-docs)" %}
 
 {% if site.format == "pdf" or site.format == "kindle" %}
 <p>This page can only be viewed online in your computer's web browser{% if site.format == "kindle" %} (not through Kindle's browser){% endif %}. Go to <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger_demo.html">https://idratherbewriting.com/learnapidoc/pubapis_swagger_demo.html</a> to view it.</p>
