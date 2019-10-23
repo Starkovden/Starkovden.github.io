@@ -15,7 +15,7 @@ folder: like-developer
 
 curl - это утилита командной строки, которая позволяет выполнять HTTP-запросы с различными параметрами и методами. Вместо того, чтобы переходить к веб-ресурсам в адресной строке браузера, можно использовать командную строку, чтобы получить те же ресурсы, извлеченные в виде текста.
 
-> Иногда curl пишется как cURL, что означает Client URL. "curl" является более распространенным написанием, так что оба варианта верны.
+{% include note.html content="Иногда curl пишется как cURL, что означает Client URL. <br/><br/> `curl` является более распространенным написанием, так что оба варианта верны." %}
 
 <a name="instalCurl"></a>
 ## Установка curl
@@ -70,7 +70,7 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=fd4
 {"coord":{"lon":-121.96,"lat":37.35},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":66.92,"pressure":1017,"humidity":50,"temp_min":53.6,"temp_max":75.2},"visibility":16093,"wind":{"speed":10.29,"deg":300},"clouds":{"all":75},"dt":1522526400,"sys":{"type":1,"id":479,"message":0.0051,"country":"US","sunrise":1522504404,"sunset":1522549829},"id":420006397,"name":"Santa Clara","cod":200}
 ```
 
-> В Windows в командной строке не работает `Ctrl+V`, нужно нажать правой кнопкой мыши и выбрать `paste`.
+{% include note.html content="В Windows в командной строке не работает `Ctrl+V`, нужно нажать правой кнопкой мыши и выбрать `paste`." %}
 
 <a name="curlvsWindows"></a>
 ## curl и Windows

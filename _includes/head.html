@@ -1,14 +1,54 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="DAAUlKcK8icZAJGD_fVMOwW0sPK35VIGdWC5UaJ8QoI" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc/, составленного Томом Джонсоном, техническим писателем Amazon">
-<meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
+
+<meta name="description" content="Курс по документированию API. Вольный перевод курса https://idratherbewriting.com/learnapidoc/, составленного Томом Джонсоном, техническим писателем Amazon">
+<meta name="keywords" content="документирование API, learnapidoc, rest api, docs-as-code, writethedocs, static site generator, apidocs, documenting rest api, publishing docs, endpoints, openapi, swagger, testing docs, тестирование документации">
+
 <title>{{ page.title }} | {{ site.site_title }}</title>
-<meta property="og:title" content="learnapidoc-ru">
-<meta property="og:description" content="Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc/, составленного Томом Джонсоном, техническим писателем Amazon.">
-<meta property="og:image" content="/images/company_logo_big.png">
+<!--meta for opengraph-->
+<meta property="og:title" content="{{ page.title }} | {{ site.site_title }}">
+<meta property="og:description" content="Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc/">
+<meta property="og:image" content="https://starkovden.github.io/images/seo_image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="article">
 <meta property="og:url" content="https://starkovden.github.io/">
+<meta property="og:site_name" content="{{ page.title }} | {{ site.site_title }}">
+<meta property="fb:app_id" content="2450512671865811"/>
+<!--meta for twitter-->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="{{ page.title }} | {{ site.site_title }}">
+<meta property="twitter:description" content="Курс по документированию API. Вольный перевод курса https://idratherbewriting.com/learnapidoc/">
+<meta property="twitter:image" content="https://starkovden.github.io/images/seo_image.png">
+<meta property="twitter:creator" content="starkovden">
+<meta property="twitter:site" content="starkovden">
+<meta property="twitter:url" content="https://starkovden.github.io/">
+<!--meta for google-->
+<meta itemprop="name" content="{{ page.title }} | {{ site.site_title }}">
+<meta itemprop="description" content="Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc">
+<meta itemprop="image" content="https://starkovden.github.io/images/seo_image.png">
+<meta property="author" content="Starkovden">
 <link rel="stylesheet" href="{{ "css/syntax.css" }}">
+<!--meta for vk-->
+<meta name="title" content="{{ page.title }} | {{ site.site_title }}">
+<link rel="image_src" href="https://starkovden.github.io/images/seo_image.png">
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(55752835, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/55752835" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
@@ -43,3 +83,13 @@
 <![endif]-->
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149941550-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149941550-1');
+</script>

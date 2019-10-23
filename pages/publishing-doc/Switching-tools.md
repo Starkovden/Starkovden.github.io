@@ -268,6 +268,6 @@ URL для переведенного контента также должен �
 
 Чтобы узнать больше о документах как о коде в целом, см. [Книгу Anne Gentle Docs Like Code](https://www.amazon.com/Docs-Like-Code-Anne-Gentle/dp/1365816079/ref=sr_1_1?ie=UTF8&qid=1508090523&sr=8-1&keywords=docs+like+code).
 
-[🔙](Which-tool-choose.html)
+[🔙](Jekyll-and-cloudCannon.html)
 
 [Go next ➡](about-eigth-module.html)
