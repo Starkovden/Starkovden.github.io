@@ -1,0 +1,2 @@
+User-agent: Yandex
+Sitemap: http://starkovden.github.io/sitemap.xml
