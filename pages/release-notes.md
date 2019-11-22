@@ -11,4 +11,4 @@ folder: pages
 
 ## 15.10.2019
 
-Потребовалось немного времени и курс Learnapidoc-ru переехал из простого репозитория на SSG Jekyll.
+Потребовалось немного времени и курс Learnapidoc-ru переехал из простого репозитория на <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a>.
