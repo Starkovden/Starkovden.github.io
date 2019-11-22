@@ -369,6 +369,10 @@ entries:
       url: /Version-control-system.html
       output: web, pdf
 
+    - title: Scrum и документация
+      url: /scrum-and-doc.html
+      output: web, pdf
+
     - title: Практическое занятие "Управляем контентом в Wiki Github"
       url: /Manage-wiki-content.html
       output: web, pdf
