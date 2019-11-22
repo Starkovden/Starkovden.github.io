@@ -82,6 +82,7 @@ folder: publishing-doc
 
 Внедрив более формальный процесс и методологию управления технической документацией (в частности, адаптацию Scrum), можно избежать подобного сценария. Кроме того, управление и отслеживание проектов таким образом дает каждому члену команды большую прозрачность и ответственность за работу с документацией.
 
+<a name="add-reading"></a>
 ## Дополнительные материалы
 
 - [Increase efficiency 24 times faster when fixing errors — implications for technical writers on agile teams](https://idratherbewriting.com/2015/10/27/fix-errors-fast-scrum-agile/);
@@ -90,12 +91,12 @@ folder: publishing-doc
 - [How can technical writers thrive in agile environments? Event recording and details](https://idratherbewriting.com/2016/09/20/thriving-in-agile-environments-as-technical-writers/);
 - [How to apply agile processes to manage your life’s projects](https://idratherbewriting.com/2016/01/21/apply-agile-principles-to-personal-projects/).
 
+<a name="survey"></a>
+## Небольшой опрос
 
+Для сбора фидбека о данном разделе автор курса создал небольшой опрос. Результаты опроса можно [посмотреть по ссылке](https://www.questionpro.com/t/PGQoTZe8zY)
 
-
-
-
-<!--<script>
+<script>
 EMBED_PARAMS = {};
     EMBED_PARAMS.surveyID =6805062;
     EMBED_PARAMS.domain ="//www.questionpro.com";
@@ -105,4 +106,4 @@ EMBED_PARAMS = {};
     EMBED_PARAMS.border = "hidden";
 </script>
 <div id="div_6805062"></div>
-<script src="//www.questionpro.com/javascript/embedsurvey.js?version=1"></script>-->
+<script src="//www.questionpro.com/javascript/embedsurvey.js?version=1"></script>
