@@ -19,6 +19,14 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Release notes
+    output: web, pdf
+    folderitems:
+
+    - title: Release notes
+      url: /release-notes.html
+      output: web, pdf
+
   - title: Введение в REST API
     output: web, pdf
     folderitems:
