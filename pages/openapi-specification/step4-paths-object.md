@@ -311,7 +311,7 @@ paths:
 
 Отображение `paths` в Swagger UI будет таким:
 
-{% include image.html file="openapi-specification/9.png" alt="paths" %}
+{% include image.html file="openapi-specification/9.png" url="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html" alt="paths" %}
 
 Чтобы увидеть подробности развернем наш раздел «Current Weather Data». Когда нажмем **Try it out**, вы увидите, что поле заполняется описанием. Если вы хотите, чтобы поле заполнялось значением, добавьте свойство `default`  в схему (как показано с параметром `mode` в приведенном выше коде).
 
