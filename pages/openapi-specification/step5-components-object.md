@@ -904,9 +904,7 @@ components:
 
 В Swagger UI мы увидим следующее:
 
-![swagger](img/10.png)
-
-> Объект `Responses` объявлен в `components`
+{% include image.html file="openapi-specification/10.png" alt="swagger" caption="Объект `Responses` объявлен в `components`" %}
 
 В секции  `Responses` просмотрим, как код Example Value был динамически построен из значений `example` в схеме, чтобы показать пример ответа.
 
@@ -919,7 +917,7 @@ components:
 
 Под всеми эндпоинтами расположен раздел «Модели»:
 
-{% include image.html file="openapi-specification/12.png" alt="downSection" %}
+{% include image.html file="openapi-specification/12.png" url="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html"alt="downSection" %}
 
 По умолчанию Swagger UI отображает каждый объект из `components` в разделе «Модели» в конце интерфейса Swagger UI. Если объединить все схемы в один объект, не используя свойство `$ref` для указания на новые объекты, то будет виден только один объект в моделях. Если разделить объекты, то будет виден каждый объект, перечисленный отдельно, включая объект, который содержит все ссылки.
 
