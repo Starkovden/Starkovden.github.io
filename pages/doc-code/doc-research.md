@@ -1,5 +1,5 @@
 ---
-title: Исследования по документированию кода
+title: Исследования о документировании кода
 last_updated: Oct 11, 2019
 sidebar: mydoc_sidebar
 permalink: doc-research.html
