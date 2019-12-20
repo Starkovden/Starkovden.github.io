@@ -5,6 +5,10 @@ permalink: release-notes.html
 folder: pages
 ---
 
+## 20.12.2019
+
+Добавлен перевод раздела [Исследования о документировании кода](doc-research.html)
+
 ## 22.11.2019
 
 Добавлен раздел [Scrum и документация](scrum-and-doc.html)
