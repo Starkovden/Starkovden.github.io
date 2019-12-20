@@ -3,6 +3,7 @@ title: Release notes
 sidebar: mydoc_sidebar
 permalink: release-notes.html
 folder: pages
+toc: false
 ---
 
 ## 20.12.2019
