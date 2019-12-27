@@ -8,7 +8,7 @@ image: images/seo_image.png
 description: Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc/
 ---
 
-{% include image.html file="santa.jpg" alt="Santa-writer" caption="Santa's writing POST/merryChristmas/{HappyNewYear}" %}
+{% include image.html file="santa.jpg" alt="Santa-writer" caption="POST/merryChristmas/{HappyNewYear}" %}
 
 ## Коротко о курсе
 
