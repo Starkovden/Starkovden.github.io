@@ -8,6 +8,8 @@ image: images/seo_image.png
 description: Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc/
 ---
 
+{% include image.html file="santa.jpg" alt="Santa-writer" caption="Santa's writing POST/merryChristmas/{HappyNewYear}" %}
+
 ## Коротко о курсе
 
 Курс по написанию документации REST API предполагает практический подход к документированию REST API вместо лекций об абстрактных понятиях. На этом курсе займемся изучением документации API на примерах использования API сервисов прогноза погоды.
