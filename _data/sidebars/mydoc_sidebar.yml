@@ -76,10 +76,6 @@ entries:
       url: /identify-goals.html
       output: web, pdf
 
-    - title: Рынок документации
-      url: /api-doc-market.html
-      output: web, pdf
-
   - title: Используем API как разработчики
     output: web, pdf
     folderitems:
