@@ -31,6 +31,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: О модуле
+      url: /about-first-module.html
+      output: web, pdf
+
     - title: Описание курса
       url: /index.html
       output: web, pdf
