@@ -35,17 +35,29 @@ entries:
       url: /about-first-module.html
       output: web, pdf
 
-    - title: Описание курса
+    - title: Коротко о курсе
       url: /index.html
       output: web, pdf
       type: homepage
+
+    - title: Обзор курса
+      url: /course-overview.html
+      output: web, pdf
+
+    - title: Для чего этот курс
+      url: /what-for-this-course.html
+      output: web, pdf
+
+    - title: Об авторе курса
+      url: /about-the-author.html
+      output: web, pdf
 
     - title: Знакомство с документацией REST API
       url: /intro-rest-api.html
       output: web, pdf
 
-    - title: Обзор курса
-      url: /course-overview.html
+    - title: Что такое REST API
+      url: /what-is-rest-api.html
       output: web, pdf
 
     - title: Видео презентации
@@ -60,27 +72,15 @@ entries:
       url: /workshop-activities.html
       output: web, pdf
 
-    - title: Для чего этот курс
-      url: /what-for-this-course.html
-      output: web, pdf
-
-    - title: Об авторе курса
-      url: /about-the-author.html
+    - title: Практика "Определение цели"
+      url: /identify-goals.html
       output: web, pdf
 
     - title: Рынок документации
       url: /api-doc-market.html
       output: web, pdf
 
-    - title: Что такое REST API
-      url: /what-is-rest-api.html
-      output: web, pdf
-
-    - title: Практика "Определение цели"
-      url: /identify-goals.html
-      output: web, pdf
-
-  - title: Использование API в роли разработчика
+  - title: Используем API как разработчики
     output: web, pdf
     folderitems:
 
