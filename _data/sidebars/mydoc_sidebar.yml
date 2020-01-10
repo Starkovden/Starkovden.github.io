@@ -40,8 +40,8 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: О модуле
-      url: /about-first-module.html
+    - title: Знакомство с документацией REST API
+      url: /intro-rest-api.html
       output: web, pdf
 
     - title: Обзор курса
