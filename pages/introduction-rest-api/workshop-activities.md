@@ -881,4 +881,4 @@ git push
 
 [🔙](course-slides.html)
 
-[Go next ➡](what-for-this-course.html)
+[Go next ➡](identify-goals.html)

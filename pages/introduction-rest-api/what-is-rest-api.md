@@ -154,6 +154,6 @@ API REST имеют и другие характеристики, о котор�
 
 [Learn REST: A RESTful Tutorial](https://www.restapitutorial.com/)
 
-[🔙](api-doc-market.html)
+[🔙](intro-rest-api.html)
 
-[Go next➡](identify-goals.html)
+[Go next➡](video-presentations.html)

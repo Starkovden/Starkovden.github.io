@@ -97,6 +97,6 @@ folder: introduction-rest-api
 <a name="sacramento"></a>
 [семинар по API в Сакраменто](https://youtu.be/GerbihyUpdo)
 
-[🔙](course-overview.html)
+[🔙](what-is-rest-api.html)
 
 [Go next ➡](course-slides.html)
