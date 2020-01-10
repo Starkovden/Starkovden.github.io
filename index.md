@@ -32,17 +32,19 @@ description: Курс по документированию API. Вольный 
 
 1. [**О модуле "Введение в REST API"**](about-first-module.html)
 
+    - [**Коротко о курсе**](index.html)
     - [**Обзор курса**](course-overview.html)
+    - [**Для чего этот курс**](what-for-this-course.html)
+    - [**Об авторе**](about-the-author.html)
+    - [**Знакомство с документацией REST API**](intro-rest-api.html)
+    - [**Что такое REST API**](what-is-rest-api.html)
     - [**Видео презентации**](video-presentations.html)
     - [**Слайды курса**](course-slides.html)
     - [**Практические занятия**](workshop-activities.html)
-    - [**Для чего этот курс**](what-for-this-course.html)
-    - [**Об авторе**](about-the-author.html)
-    - [**Рынок документации REST API**](api-doc-market.html)
-    - [**Что такое REST API**](what-is-rest-api.html)
     - [**Практика: Определение цели**](identify-goals.html)
+    - [**Рынок документации REST API**](api-doc-market.html)
 
-2. [**О модуле "Использование API в роли разработчика""**](about-second-module.html)
+2. [**О модуле "Используем API как разработчики""**](about-second-module.html)
 
     - [**Сценарий использования API погоды**](using-api-scenario.html)
     - [**Получение ключей авторизации**](get-authorization-keys.html)
