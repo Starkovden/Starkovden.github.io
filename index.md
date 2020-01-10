@@ -44,7 +44,7 @@ description: Курс по документированию API. Вольный 
     - [**Практика: Определение цели**](identify-goals.html)
     - [**Рынок документации REST API**](api-doc-market.html)
 
-2. [**О модуле "Используем API как разработчики""**](about-second-module.html)
+2. [**О модуле "Используем API как разработчики"**](about-second-module.html)
 
     - [**Сценарий использования API погоды**](using-api-scenario.html)
     - [**Получение ключей авторизации**](get-authorization-keys.html)
