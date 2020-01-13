@@ -95,7 +95,7 @@ API eBay в 2005 году был одним из первых веб-API, кот
 
 На вопрос «Какие три наиболее важных характеристики вам нужны в API?», [в отчете «Состояние API 2019»](https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf) обнаружили, что «Точная и подробная документация» занимает третье место по важности:
 
-{% include image.html file="introduction-rest-api/32.png" alt="харакетристики" url="https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf" caption="Характеристики, необходимые в API" %}
+{% include image.html file="introduction-rest-api/32.png" alt="характеристики" url="https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf" caption="Характеристики, необходимые в API" %}
 
 Этот пункт поднялся на три позиции вверх по сравнению с аналогичным [отчетом за 2016 год](https://static1.smartbear.co/smartbear/media/ebooks/state-of-api-report-2016.pdf), где «Точная и подробная документация» занимала лишь 6 место.
 
