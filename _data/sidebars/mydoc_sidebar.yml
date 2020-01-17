@@ -425,7 +425,7 @@ entries:
       url: /about-eigth-module.html
       output: web, pdf
 
-    - title: Рынок вакансий для технического писателя
+    - title: Квалификация технического писателя
       url: /job-market.html
       output: web, pdf
 
