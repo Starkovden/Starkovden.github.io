@@ -8,6 +8,7 @@ image: images/seo_image.png
 description: Курс по документированию API. Вольный перевод курса https://idratherbewriting.comlearnapidoc/
 ---
 
+Курс по документированию API. Вольный перевод курса [Documenting APIs: a guide for technical writers](https://idratherbewriting.com/learnapidoc/), составленного Томом Джонсоном, техническим писателем Amazon.
 
 ## Коротко о курсе
 
