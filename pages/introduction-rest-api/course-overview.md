@@ -45,7 +45,7 @@ folder: introduction-rest-api
 
 Наконец, изучим разные способы [публикации API документации](about-seventh-module.html), изучим инструменты и спецификации, такие как [GitHub](Manage-wiki-content.html), [Jekyll](Jekyll-and-cloudCannon.html) и подход [Docs-as-code](Doc-as-code-tools.html). Узнаем, как использовать шаблоны, создавать интерактивные консоли API, чтобы пользователи могли сделать запросы и посмотреть ответы, а также узнаем, как управлять своим контентом с помощью [контроля версий](Version-control-system.html).
 
-Мы также окунемся в спецификации, такие как [спецификация OpenAPI](openapi-tutorial-overview.html) и [Swagger](introduction-openapi-and-swagger.html), который предоставляют инструментарий для спецификации OpenAPI. Кроме того, узнаем, [как документировать нативные библиотеки API](Rabout-ninth-module.html) и генерировать [Javadoc](Activity-Generate-Javadoc.html). Вместе с концепциями будут продемонстрированы реальные примеры.
+Мы также окунемся в спецификации, такие как [спецификация OpenAPI](openapi-tutorial-overview.html) и [Swagger](introduction-openapi-and-swagger.html), который предоставляют инструментарий для спецификации OpenAPI. Кроме того, узнаем, [как документировать нативные библиотеки API](about-ninth-module.html) и генерировать [Javadoc](Activity-Generate-Javadoc.html). Вместе с концепциями будут продемонстрированы реальные примеры.
 
 <a name="who-the-course-is-for"></a>
 ## Для кого этот курс
