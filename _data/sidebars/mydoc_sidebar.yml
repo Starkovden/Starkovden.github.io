@@ -478,7 +478,7 @@ entries:
       output: web, pdf
 
     - title: Создание концептуальной документации при помощи исходных библиотек API
-      url: /create-non-refsdocs-with-native-library-apis.html
+      url: /Create-non-refsdocs-with-native-library-APIs.html
       output: web, pdf
 
   - title: Глоссарий API и источники
