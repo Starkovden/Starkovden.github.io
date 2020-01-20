@@ -138,7 +138,7 @@ demographics:
 <a name="migration"></a>
 ## Миграция от OpenAPI 2.0 к 3.0
 
-При наличии существующего документа спецификации, который проверяется на соответствие версии OpenAPI 2.0 и можно конвертировать его в OpenAPI 3.0 (или наоборот), можно использовать  [APIMATIC's Transformer](https://www.apimatic.io/transformer) для его автоматического преобразования. (Можно использовать APIMATIC для преобразования документа спецификации во многие другие выходные данные, такие как [RAML](RAML-tutorial.html), [API Blueprint](.API-Blueprint-tutorial.html) или [Postman](submit-requests-postman.html).)
+При наличии существующего документа спецификации, который проверяется на соответствие версии OpenAPI 2.0 и можно конвертировать его в OpenAPI 3.0 (или наоборот), можно использовать  [APIMATIC's Transformer](https://www.apimatic.io/transformer) для его автоматического преобразования. (Можно использовать APIMATIC для преобразования документа спецификации во многие другие выходные данные, такие как [RAML](RAML-tutorial.html), [API Blueprint](API-Blueprint-tutorial.html) или [Postman](submit-requests-postman.html).)
 
 Чтобы увидеть разницу между версиями 2.0 и 3.0, можно скопировать примеры кода в отдельные файлы, а затем использовать приложение [Diffmerge](https://sourcegear.com/diffmerge/), чтобы выделить различия. В блоге Readme.io есть хорошая публикация: [A Visual Guide to What’s New in Swagger 3.0](https://blog.readme.io/an-example-filled-guide-to-swagger-3-2/)
 
