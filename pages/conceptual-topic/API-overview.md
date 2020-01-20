@@ -2,7 +2,7 @@
 title: Обзор API
 last_updated: Oct 9, 2019
 sidebar: mydoc_sidebar
-permalink: user-guide-topics.html
+permalink: API-overview.html
 folder: conceptual-topic
 ---
 
