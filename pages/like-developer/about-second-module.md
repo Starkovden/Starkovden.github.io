@@ -37,6 +37,6 @@ folder: like-developer
 [**Погружение в точечную нотацию**](dot-notation.html)
 
 
-[🔙](../introduction-rest-apis/identify-goals.html)
+[🔙](identify-goals.html)
 
 [Go next ➡](using-api-scenario.html)
