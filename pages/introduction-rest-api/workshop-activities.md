@@ -34,12 +34,12 @@ toc: false
 
 ## Часть 3 Документирование конечной точки API
 
-{% include workshop_button.html title="Практическое занятие: Что не так в разделе API? activity="whats_wrong_with_surfreport" button_type="success" %}
+{% include workshop_button.html title="Практическое занятие: Что не так в разделе API?" activity="whats_wrong_with_serfreport" button_type="success" %}
 
 {% include workshop_button.html title="Практическое занятие: Поиск опен-сорс проекта" activity="find_open_source_project" button_type="success" %}
 
-{% include workshop_button.html title="Практическое занятие: Оценка ключевых элементов API документации" activity="evaluate_elements_api_ref" button_type="success" %}
-		
+{% include workshop_button.html title="Практическое занятие: Оценка ключевых элементов API документации" activity="evaluate_elemets_api_ref" button_type="success" %}
+
 
 ## Часть 4 OpenAPI и Swagger
 
