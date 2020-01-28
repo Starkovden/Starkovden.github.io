@@ -68,7 +68,7 @@ toc: false
 
 {% include workshop_button.html title="Отправляем локальные изменения на удаленный репозиторий" activity="push_local_to_remote" button_type="warning" %}
 
-# Модуль 8 Работа технического писателя
+## Модуль 8 Работа технического писателя
 
 {% include workshop_button.html title="Обзор вакансий и требований в них к документированию API" activity="look_for_apidoc_jobs" button_type="info" %}
 
