@@ -1,5 +1,5 @@
 ---
-title: Отправка запросов в Postman
+title: Отправляем запросы в Postman
 last_updated: Oct 8, 2019
 sidebar: mydoc_sidebar
 permalink: submit-requests-postman.html
@@ -148,19 +148,19 @@ https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&
 http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
-Получите погоду из города на экваторе - Чимборасо, Эквадор, используя ту же точку [Observations](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/):
+Получаем погоду для города на экваторе - Чимборасо, Эквадор, используя ту же точку [Observations](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/):
 
 ```
 http://api.aerisapi.com/observations/Chimborazo,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
-Узнайте, вся ли музыка кантри в Ноксвилле, штат Теннесси, дает людям мигрени, используя конечную точку [Indices](https://www.aerisweather.com/support/docs/api/reference/endpoints/indices/):
+Посмотрим, вся ли музыка кантри в Ноксвилле, штат Теннесси, провоцирует мигрень у жителей, используя конечную точку [Indices](https://www.aerisweather.com/support/docs/api/reference/endpoints/indices/):
 
 ```
 http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENTID&client_secret=CLIENTSECRET
 ```
 
-Подумываете о переезде в Аризону, но вы хотите найти получше место? Используйте конечную точку [normals](https://www.aerisweather.com/support/docs/api/reference/endpoints/normals/)
+Подумываете о переезде в Аризону и подыскиваете местечко получше? Используем конечную точку [normals](https://www.aerisweather.com/support/docs/api/reference/endpoints/normals/)
 
 ```
 http://api.aerisapi.com/normals/flagstaff,az?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=5&filter=hassnow
@@ -188,7 +188,7 @@ Postman имеет отличную функцию импорта, котора�
 
 Для импорта: нужно скопировать адрес ссылки, в Postman нажать `Import` в верхнем левом углу. Затем перейдите на вкладку `Import from link`, вставить адрес и нажать `Import`.
 
-{% include tip.html content="Если вы хотите узнать больше о Postman, послушайте это [интервью с основателем Postman](https://idratherbewriting.com/2018/01/22/postman-for-docs-podcast/). Интервью записано как часть подкаста [Write the Docs](https://podcast.writethedocs.org/). Дополнительные сведения о создании кнопок «Выполнить в Postman» см. в разделе [Run in Postman button](getting-started.html#button) ." %}
+{% include tip.html content="Если вы хотите узнать больше о Postman, послушайте [интервью с основателем Postman](https://idratherbewriting.com/2018/01/22/postman-for-docs-podcast/). Интервью записано как часть подкаста [Write the Docs](https://podcast.writethedocs.org/). Дополнительные сведения о создании кнопок «Выполнить в Postman» см. в разделе [Run in Postman button](getting-started.html#button) ." %}
 
 [🔙](get-authorization-keys.html)
 
