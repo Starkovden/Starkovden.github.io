@@ -81,4 +81,4 @@ Bitly предоставляет основную информацию на ст
 
 [🔙](status-error-codes.html)
 
-[Go next ➡](code-samples.html)
+[Go next ➡](sdks-sample-apps.html)
