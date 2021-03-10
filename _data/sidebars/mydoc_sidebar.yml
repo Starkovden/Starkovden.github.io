@@ -353,6 +353,10 @@ entries:
       url: /about-eleventh-module.html
       output: web, pdf
 
+    - title: Общие черты документации кода
+      url: /common-parts.html
+      output: web, pdf
+      
     - title: Почему так трудно документировать код?
       url: /doc-code.html
       output: web, pdf
