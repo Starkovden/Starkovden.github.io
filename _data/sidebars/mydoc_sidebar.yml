@@ -321,10 +321,6 @@ entries:
       url: /rate-limiting.html
       output: web, pdf
 
-    - title: Описание и образцы кода
-      url: /code-samples.html
-      output: web, pdf
-
     - title: SDK и пример приложений
       url: /sdks-sample-apps.html
       output: web, pdf
@@ -356,7 +352,7 @@ entries:
     - title: Общие черты документации кода
       url: /common-parts.html
       output: web, pdf
-      
+
     - title: Почему так трудно документировать код?
       url: /doc-code.html
       output: web, pdf
@@ -369,7 +365,9 @@ entries:
       url: /doc-strategy.html
       output: web, pdf
 
-
+    - title: Описание и образцы кода
+      url: /code-samples.html
+      output: web, pdf
 
 
   - title: Публикация документации
