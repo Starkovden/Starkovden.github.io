@@ -345,7 +345,7 @@ entries:
       url: /assess-conceptual-content.html
       output: web, pdf
 
-  - title: Документирование кода
+  - title: Документация кода
     output: web, pdf
     folderitems:
 
