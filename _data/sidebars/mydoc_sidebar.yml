@@ -345,6 +345,29 @@ entries:
       url: /assess-conceptual-content.html
       output: web, pdf
 
+  - title: Документирование кода
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-eleventh-module.html
+      output: web, pdf
+
+    - title: Почему так трудно документировать код?
+      url: /doc-code.html
+      output: web, pdf
+
+    - title: Исследования о документировании кода
+      url: /doc-research.html
+      output: web, pdf
+
+    - title: Пять стратегий документирования кода
+      url: /doc-strategy.html
+      output: web, pdf
+
+
+
+
   - title: Публикация документации
     output: web, pdf
     folderitems:
@@ -519,24 +542,4 @@ entries:
 
     - title: Описание ошибок
       url: /answeres-whats-wrong.html
-      output: web, pdf
-
-  - title: Документирование кода
-    output: web, pdf
-    folderitems:
-
-    - title: О модуле
-      url: /about-eleventh-module.html
-      output: web, pdf
-
-    - title: Почему так трудно документировать код?
-      url: /doc-code.html
-      output: web, pdf
-
-    - title: Исследования о документировании кода
-      url: /doc-research.html
-      output: web, pdf
-
-    - title: Пять стратегий документирования кода
-      url: /doc-strategy.html
       output: web, pdf
