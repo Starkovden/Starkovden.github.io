@@ -1,6 +1,6 @@
 ---
 title: Описание и образцы кода
-last_updated: Oct 9, 2019
+last_updated: March 10, 2021
 sidebar: mydoc_sidebar
 permalink: code-samples.html
 folder: doc-code
@@ -209,4 +209,4 @@ REST API позволяет разработчикам использовать 
 
 [🔙](doc-strategy.html)
 
-[Go next ➡](sdks-sample-apps.html)
+[Go next ➡](sample-apps.html)
