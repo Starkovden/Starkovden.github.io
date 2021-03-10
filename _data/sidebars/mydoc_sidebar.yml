@@ -369,6 +369,9 @@ entries:
       url: /code-samples.html
       output: web, pdf
 
+    - title: Образцы приложений
+      url: /sample-apps.html
+      output: web, pdf
 
   - title: Публикация документации
     output: web, pdf
