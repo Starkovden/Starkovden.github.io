@@ -31,7 +31,7 @@ folder: documenting-api-endpoints
 
     /campaigns/{campaign_id}/actions/send
 
-По возможности, параметр path выделяют другим цветом, для его выделения:
+По возможности, параметр path выделяют другим цветом:
 
     /campaigns/{campaign_id}/actions/send
 
