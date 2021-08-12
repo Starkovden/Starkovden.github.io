@@ -55,7 +55,7 @@ folder: documenting-api-endpoints
 - POST: создает ресурс;
 - PUT: обновляет или создает в существующем ресурсе;
 - PATCH: частично изменяет существующий ресурс;
-- УДАЛИТЬ: Удаляет ресурс.
+- DELETE: Удаляет ресурс.
 
 См. [Request methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) в статье Wikipedia по HTTP для получения дополнительной информации. (Существуют дополнительные методы, но они редко используются.)
 
