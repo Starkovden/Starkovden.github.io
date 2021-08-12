@@ -21,7 +21,7 @@ folder: glossary-and-resourses
 <a name="request"></a>
 ### 2. Создаем запрос
 
-Переходим на страницу [конечных точек](https://www.aerisweather.com/support/docs/api/reference/endpoints/#all:all) API сервиса, и ищем ту, которая позволит получить скорость ветра. Конечная точка [`oservations`](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/), как и [`forecasts`](https://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/) предоставляет информацию о скорости ветра. Ответ от `oservations` выглядит проще, поэтому будем использовать ее.
+Переходим на страницу [конечных точек](https://www.aerisweather.com/support/docs/api/reference/endpoints/#all:all) API сервиса, и ищем ту, которая позволит получить скорость ветра. Конечная точка [`observations`](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/), как и [`forecasts`](https://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/) предоставляет информацию о скорости ветра. Ответ от `observations` выглядит проще, поэтому будем использовать ее.
 
 {% include image.html file="glossary-and-resourses/14.png" alt="Endpoint: oservations" %}
 
