@@ -31,7 +31,7 @@ folder: documenting-api-endpoints
 
     /campaigns/{campaign_id}/actions/send
 
-По возможности, параметр path выделяют другим цветом, для его выделения:
+По возможности, параметр path выделяют другим цветом:
 
     /campaigns/{campaign_id}/actions/send
 
@@ -55,7 +55,7 @@ folder: documenting-api-endpoints
 - POST: создает ресурс;
 - PUT: обновляет или создает в существующем ресурсе;
 - PATCH: частично изменяет существующий ресурс;
-- УДАЛИТЬ: Удаляет ресурс.
+- DELETE: Удаляет ресурс.
 
 См. [Request methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) в статье Wikipedia по HTTP для получения дополнительной информации. (Существуют дополнительные методы, но они редко используются.)
 
