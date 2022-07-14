@@ -25,4 +25,4 @@ folder: introduction-rest-api
 
 [🔙](workshop-activities.html)
 
-[Go next ➡](../like-developer/README.html)
+[Go next ➡](../like-developer/about-second-module.html)
